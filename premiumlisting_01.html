@@ -6,91 +6,109 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="logo"></div>
-    <div class="search"></div>
-    <div class="actions"></div>
-  </div>
-  <div class="main content">
-    <div class="company info">
-      <div class="column1"></div>
-      <div class="column2"></div>
-      <div class="content"></div>
-      <div class="category-metrics"></div>
-      <div class="tags">
-         <ul class="tags">
-            <li>tag</li>
-            <li>tag</li>
-            <li>tag</li>
-         </ul>
+<!-- #BeginLibraryItem "/Library/header.lbi" -->
+<header>
+  <div class="logo"></div>
+  <div class="search"></div>
+  <div class="actions"></div>
+</header>
+<!-- #EndLibraryItem -->
+<main>
+  <section class="company">
+    <div class="primary-actions">
+      <button>Send a Message</button>
+      <button>Click to Call</button>
+      <button>Bookmark</button>
+    </div>
+    <div class="company-details"> <!-- #BeginLibraryItem "/Library/taxonomy.lbi" -->
+      <div class="taxonomy">
+        <ul>
+          <li>category</li>
+          <li>subcategory</li>
+        </ul>
       </div>
-    </div>
-    <div class="company-content wrapper">
-      <div class="asset"></div>
-      <div class="video"></div>
-    </div>
-    <div class="products wrapper">
-      <div class="product">
-        <div class="categorysubcategory"></div>
-        <h1>title</h1>
-        <div class="content"></div>
-        <div class="tags">
-           <ul class="tags">
-              <li>tag</li>
-              <li>tag</li>
-              <li>tag</li>
-           </ul>
-        </div>
+      <!-- #EndLibraryItem -->
+      <div class="logo">logo</div>
+      <h1>Company Name</h1>
+      <div class="social-link">social links</div>
+      <!-- #BeginLibraryItem "/Library/rating.lbi" -->
+      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="icon-star-empty"></i> </div>
+      <!-- #EndLibraryItem --> <!-- #BeginLibraryItem "/Library/address.lbi" -->
+      <address>
+      <div class="adr">
+        <div class="street-address">123 Main st.</div>
+        <span class="locality">Los Angeles</span>, <abbr class="region" title="California">CA</abbr>, <span class="postal-code">91316</span>
+        <div class="country-name">U.S.A</div>
       </div>
-    </div>
-    <div class="reviews wrapper">
-      <div class="review">
-        <h1>title</h1>
-        <div class="text action"></div>
-        <div class="filter">
-          <div class="filter label"></div>
-          <div class="filter drop down"></div>
+      </address>
+      <!-- #EndLibraryItem --> </div>
+    <a class="url" href="http://sally.example.com">w</a> <span class="year-founded">2001</span> <span class="time-zone">CST</span> </section>
+  <section class="premium"> </section>
+  <section class="products">
+    <h3>Products</h3>
+    <!-- #BeginLibraryItem "/Library/product.lbi" -->
+    <div class="product">
+      <header> <!-- #BeginLibraryItem "/Library/taxonomy.lbi" -->
+        <div class="taxonomy">
+          <ul>
+            <li>category</li>
+            <li>subcategory</li>
+          </ul>
         </div>
-        <div class="discuss-meta">
-           <div class="user-avatar"></div>
-           <div class="discuss-author"></div>
-           <div class="badge"></div>
-           <div class="discuss-date"></div>
-        </div>
-        <div class="rating metrics"></div>
-        <h1>review title</h1>
-        <div class="verified"></div>
-        <div class="content"></div>
-        <div class="see-more"></div>
+        <!-- #EndLibraryItem --> </header>
+      <h2>Product Name</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</p>
+      <!-- #BeginLibraryItem "/Library/tags.lbi" -->
+      <div class="related">
+        <ul class="tags">
+          <li>tag</li>
+          <li>tag</li>
+          <li>tag</li>
+        </ul>
       </div>
-    </div>
-    <div class="related-discussions">
-      <h1>Discussions on this article:</h1>
-        <div class="repeating discussions wrapper">
-          <div class="listdiscussion">
-            <div class="upvote">
-              <div class="upvote-icon"></div>  	
-              <div class="upvote-metrics"></div>
-            <h1>title</h1>
-            <div class="discuss-meta">
-              <div class="user-avatar"></div>
-              <div class="discuss-author"></div>
-              <div class="discuss-date"></div>
-               <div class="discuss-commenters">
-                <ul  class="user-avatar">
-                  <li>avatar</li>
-                  <li>avatar</li>
-                  <li>avatar</li>
-                </ul>
-                <div class="comment-metrics"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- #EndLibraryItem --></div>
+    <!-- #EndLibraryItem --> </section>
+  <section class="reviews">
+    <h3>Reviews for [company name]</h3>
+    <div class="intro">
+      <div class="c2a">Do you have an experience with [company name?]
+        <button>Leave a review</button>
       </div>
-      <div class="see-more"></div>
-    </div>
-  </div>
-  <div class="footer"></div>
+      <!-- #BeginLibraryItem "/Library/filter.lbi" -->
+      <div class="filter">
+        <div class="filterlabel"></div>
+        <div class="dropdown"></div>
+      </div>
+      <!-- #EndLibraryItem --> </div>
+  </section>
+  <section class="results">
+    <h3>Related Discussions</h3>
+    <!-- #BeginLibraryItem "/Library/discuss-short.lbi" -->
+    <div class="discuss"> <!-- #BeginLibraryItem "/Library/upvote.lbi" -->
+      <div class="upvote"> <i class="fa fa-thumbs-up">Upvote</i>
+        <div class="metrics">12345</div>
+      </div>
+      <!-- #EndLibraryItem -->
+      <h2>title</h2>
+      <!-- #BeginLibraryItem "/Library/meta.lbi" -->
+      <div class="meta">
+        <div class="avatar">img</div>
+        <div class="author">Ryman Stringer</div>
+        <i class="fa fa-star"></i>
+        <div class="date">01.16.2017</div>
+      </div>
+      <!-- #EndLibraryItem --> <!-- #BeginLibraryItem "/Library/comment-status.lbi" -->
+      <div class="comment-status">
+        <ul class="commenters">
+          <li>avatar</li>
+          <li>avatar</li>
+          <li>avatar</li>
+        </ul>
+        <div class="metrics">12345</div>
+      </div>
+      <!-- #EndLibraryItem --> </div>
+    <!-- #EndLibraryItem --></section>
+</main>
+<footer></footer>
 </body>
 </html>

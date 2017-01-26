@@ -5,92 +5,89 @@
 <title>article draft</title>
 </head>
 
-<body>
-  <div class="header">
+<body><!-- #BeginLibraryItem "/Library/header.lbi" -->  <header>
   	<div class="logo"></div>
     <div class="search"></div>
     <div class="actions"></div>
-  </div>
-  <div class="banner">
-    <div class="categorysubcategory"></div>
+  </header><!-- #EndLibraryItem --><div class="banner">
+  <div class="discuss cat"></div>
     <h1>title</h1>
     <div class="image"></div>
   </div>
   <div class="main container">
-    <div class="column1">
+    <aside>
       <div class="article-author"></div>
       <div class="publish-date"></div>
-      <div class="bookmark"></div>
-      <div class="content"></div>
-      <div class="tags">
-        <ul class="tags">
-          <li>tag</li>
-          <li>tag</li>
-          <li>tag</li>
-         </ul>
-      </div>
-      <div class="bookmark"></div>
-      <div class="see-more"></div>
-      <div class="actionbutton"></div>
-    </div>
+      <button class="bookmark"></button>
+      <div class="content"></div><!-- #BeginLibraryItem "/Library/tags.lbi" --> 
+					<div class="related">
+            <ul class="tags">
+              <li>tag</li>
+              <li>tag</li>
+              <li>tag</li>
+            </ul>
+          </div><!-- #EndLibraryItem -->
+          <button class="bookmark"></button>
+      <button class="more"></button>
+      <button>Action button</button>
+    </aside>
     <div class="column2">
       <h2>title</h2>
-      <div class="featuredsolution-wrapper">
+      <div class="featuredsolution wrapper">
         <div class="logo"></div>
         <h3>company name</h3>
         <div class="rating">
-          <div class="rating-metrics"></div>
-          <div class="review-metrics"></div>
+          <div class="rating metrics"></div>
+          <div class="review metrics"></div>
         </div>
-        <div class="categorysubcategory"></div>
+        <div class="discuss cat"></div>
       </div>
-      <div class="solution-wrapper">
+      <div class="solution wrapper">
         <h3>company name</h3>
         <div class="rating">
-          <div class="rating-metrics"></div>
-          <div class="review-metrics"></div>
+          <div class="rating metrics"></div>
+          <div class="review metrics"></div>
         </div>
-        <div class="categorysubcategory"></div>
+        <div class="discuss cat"></div>
       </div>
     </div>
-    <div class="related-discussions">
+    <div class="discuss related">
       <h1>Discussions on this article:</h1>
-        <div class="repeating discussions wrapper">
-          <div class="listdiscussion">
+        <div class="discuss repeating wrapper">
+          <div class="discuss short-form">
             <div class="upvote">
-              <div class="upvote-icon"></div>  	
-              <div class="upvote-metrics"></div>
-            <h1>title</h1>
-            <div class="discuss-meta">
-              <div class="user-avatar"></div>
-              <div class="discuss-author"></div>
-              <div class="discuss-date"></div>
-               <div class="discuss-commenters">
-                <ul  class="user-avatar">
-                  <li>avatar</li>
-                  <li>avatar</li>
-                  <li>avatar</li>
-                </ul>
-                <div class="comment-metrics"></div>
-              </div>
-            </div>
-          </div>
+              <div class="upvote icon"></div>  	
+              <div class="upvote metrics"></div>
+            <h1>title</h1><!-- #BeginLibraryItem "/Library/meta.lbi" -->      
+			<div class="meta">
+        <div class="avatar">img</div>
+        <div class="author">Ryman Stringer</div>
+        <i class="fa fa-star"></i>
+        <div class="date">01.16.2017</div>
+      </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/comment-status.lbi" --><div class="comment-status">
+        <ul class="commenters">
+          <li>avatar</li>
+          <li>avatar</li>
+          <li>avatar</li>
+        </ul>
+        <div class="metrics">12345</div>
+      </div><!-- #EndLibraryItem --></div>
         </div>
       </div>
-      <div class="see-more"></div>
+      <button class="more"></button>
       </div>
-      <div class="start discussion wrapper">
-        <div class="categorysubcategory"></div>
-        <div class="user-avatar"></div>
+      <div class="discuss entry">
+        <div class="discuss cat"></div>
+        <div class="user avatar"></div>
         <h5>Discussion Title</h5>
-        <div class="dicussion title"></div>
+        <div class="discuss title"></div>
         <div class="title box"></div>
         <div class="mte bug"></div>
         <div class="article link"></div>
         <div class="comment box"></div>
-        <div class="actionbutton"></div>
+        <button>Action button</button>
       </div>
     </div>
-  <div class="footer"></div>
+  <footer></footer>
 </body>
 </html>
