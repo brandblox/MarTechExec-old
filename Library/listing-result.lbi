@@ -1,0 +1,16 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- remove sponsor after 3 -->      <li class="result sponsor">
+          <div class="logo"></div>
+          <h3>company name</h3>
+          <div class="metrics">
+            <div class="rating"></div>
+            <div class="review"></div>
+          </div>
+        </li>
+        <!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" -->
+        <div class="taxonomy">
+          <ul>
+            <li>category</li>
+            <li>subcategory</li>
+          </ul>
+        </div>
+<!-- #EndLibraryItem -->

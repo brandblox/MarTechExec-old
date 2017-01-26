@@ -1,56 +1,4 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>profile - activity</title>
-</head>
-
-<body><!-- #BeginLibraryItem "/MarTechExec-screens/Library/header.lbi" -->  <header>
-  	<div class="logo"></div>
-    <div class="search"></div>
-    <div class="actions"></div>
-  </header><!-- #EndLibraryItem --><section class="banner">
-  <div class="meta">
-    <div class="avatar">Avatar</div>
-    <div class="name">Name</div>
-    <div class="company">company</div>
-    <div class="social-link">social link</div>
-      </div>
-</section>
-
-
-<main>
-  <ul class="tabs">
-    <li class="active">activity</li>
-    <li>about</li>
-    <li>my fans</li>
-    <li>my bookmarks</li>
-  </ul>
-	
-	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/nav menu.lbi" -->
-	<aside>
-  <div class="v-menu">
-    <button>Action button</button>
-    <div class="submenu type">
-      <div class="submenuheader"></div>
-      <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-      </ul>
-    </div>
-    <div class="submenu category">
-      <div class="submenuheader"></div>
-      <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 1</li>
-        <li>item 2</li>
-      </ul>
-    </div>
-  </div>
-</aside><!-- #EndLibraryItem -->
-
-<section class="results"><!-- #BeginLibraryItem "/MarTechExec-screens/Library/discuss.lbi" --><div class="discuss"><!-- #BeginLibraryItem "/MarTechExec-screens/Library/upvote.lbi" -->        <div class="upvote">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="discuss"><!-- #BeginLibraryItem "/MarTechExec-screens/Library/upvote.lbi" -->        <div class="upvote">
          	<i class="fa fa-thumbs-up">Upvote</i> 
           <div class="metrics">12345</div>
         </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" --><div class="taxonomy">
@@ -91,12 +39,4 @@
               <li>tag</li>
               <li>tag</li>
             </ul>
-          </div><!-- #EndLibraryItem --></div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/pagination.lbi" -->
-    <div class="pagination"></div>
-    <!-- #EndLibraryItem --> 
- </section>
-
-</main>
-<footer></footer>
-</body>
-</html>
+          </div><!-- #EndLibraryItem --></div>

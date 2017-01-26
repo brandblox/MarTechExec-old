@@ -1,0 +1,23 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="product">
+<header>
+<!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" -->
+<div class="taxonomy">
+  <ul>
+    <li>category</li>
+    <li>subcategory</li>
+  </ul>
+</div>
+<!-- #EndLibraryItem -->
+</header>
+<h2>Product Name</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</p>
+<!-- #BeginLibraryItem "/MarTechExec-screens/Library/tags.lbi" -->
+<div class="related">
+  <ul class="tags">
+    <li>tag</li>
+    <li>tag</li>
+    <li>tag</li>
+  </ul>
+</div>
+<!-- #EndLibraryItem --> </div>

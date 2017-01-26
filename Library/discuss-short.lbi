@@ -1,0 +1,27 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="discuss">
+<!-- #BeginLibraryItem "/MarTechExec-screens/Library/upvote.lbi" -->        
+<div class="upvote">
+         	<i class="fa fa-thumbs-up">Upvote</i> 
+          <div class="metrics">12345</div>
+        </div>
+				<!-- #EndLibraryItem -->
+				
+      <h2>title</h2>
+      <!-- #BeginLibraryItem "/MarTechExec-screens/Library/meta.lbi" -->
+      <div class="meta">
+        <div class="avatar">img</div>
+        <div class="author">Ryman Stringer</div>
+        <i class="fa fa-star"></i>
+        <div class="date">01.16.2017</div>
+      </div>
+      <!-- #EndLibraryItem -->
+		<!-- #BeginLibraryItem "/MarTechExec-screens/Library/comment-status.lbi" --><div class="comment-status">
+        <ul class="commenters">
+          <li>avatar</li>
+          <li>avatar</li>
+          <li>avatar</li>
+        </ul>
+        <div class="metrics">12345</div>
+      </div><!-- #EndLibraryItem -->
+			</div>

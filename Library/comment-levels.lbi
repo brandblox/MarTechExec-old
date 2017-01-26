@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- if level class is not three, only show button -->
+<div class="level 3">
+<header><!-- #BeginLibraryItem "/MarTechExec-screens/Library/upvote.lbi" -->        <div class="upvote">
+         	<i class="fa fa-thumbs-up">Upvote</i> 
+          <div class="metrics">12345</div>
+        </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/meta.lbi" -->      
+			<div class="meta">
+        <div class="avatar">img</div>
+        <div class="author">Ryman Stringer</div>
+        <i class="fa fa-star"></i>
+        <div class="date">01.16.2017</div>
+      </div><!-- #EndLibraryItem --></header>
+<p>Morbi interdum sodales lacus at posuere. Nullam posuere nunc sit amet velit rutrum, eu iaculis mauris feugiat. Cras efficitur fringilla dolor, ut mollis odio faucibus et. Donec lectus massa, faucibus ultrices efficitur quis, sagittis sit amet erat. Suspendisse mollis condimentum arcu, ac hendrerit tortor bibendum eu. Suspendisse mattis aliquam eros vitae varius.</p>
+<footer>
+<div class="avatar">img</div>
+<textarea>Write a reply</textarea>
+<button>Reply</button>
+</footer>
+</div>
+  

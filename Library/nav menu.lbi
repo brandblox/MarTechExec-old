@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><aside>
+  <div class="v-menu">
+    <button>Action button</button>
+    <div class="submenu type">
+      <div class="submenuheader"></div>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+      </ul>
+    </div>
+    <div class="submenu category">
+      <div class="submenuheader"></div>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 1</li>
+        <li>item 2</li>
+      </ul>
+    </div>
+  </div>
+</aside>
