@@ -1,0 +1,23 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="comment">
+<!-- #BeginLibraryItem "/MarTechExec-screens/Library/upvote.lbi" -->        <div class="upvote">
+         	<i class="fa fa-thumbs-up">Upvote</i> 
+          <div class="metrics">12345</div>
+        </div><!-- #EndLibraryItem -->
+        <!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" --><div class="taxonomy">
+          <ul>
+            <li>category</li>
+            <li>subcategory</li>
+          </ul>
+        </div><!-- #EndLibraryItem -->
+      <!-- #BeginLibraryItem "/MarTechExec-screens/Library/meta.lbi" -->
+      <div class="meta">
+        <div class="avatar">img</div>
+        <div class="author">Ryman Stringer</div>
+        <i class="fa fa-star"></i>
+        <div class="date">01.16.2017</div>
+      </div>
+      <!-- #EndLibraryItem -->
+      <!-- #BeginLibraryItem "/MarTechExec-screens/Library/excerpt.lbi" -->
+      <div class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</div>
+      <!-- #EndLibraryItem -->
+          </div>
