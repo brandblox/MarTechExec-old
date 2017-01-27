@@ -1,3 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
-
+body {margin: 0; background-color: #FAFAFF; color:#333}
+body, h1, h2, h3, h4, h6, div, ul, li, a {font-family: Adelle Sans, Arial, sans-serif;}
+header.page { background-color:#00072b; width: 100%; margin:0; height: 40px; padding:10px 0}
+.nav {width: 1280px; margin: 0 auto; color:#fff;}
+.logo, .search, .button-icon, .action {float: left}
+.logo {width: 200px; padding:5px 0 5px}
+.search {width: 650px; margin:5px 40px; text-align: center; border:1px #ccc solid; background-color:#fff; height: 30px}
+.action {width: 280px;  text-align: right}
+main {width: 1280px; margin: 0 auto}
+aside {width: 300px; float: left; margin-top: 20px}
+section  {width: 930px; float: right; padding: 10px}
+h1, h2, h3, h4, h5, h6 {font-family: "Bitter", Times New Roman, serif;}
+h1 {color: #000}
+section {margin: 0 auto; padding:25px}
+.filter { color: #1D8AC5}
+.filter .label {font-size: .82em}
+.filter .dropdown {font-size: 1.2em}
+section.filter {width:300px; float:right; text-align:right}
+section.sticky {background: #fff}
+button {display: block; padding: 20px 50px; font-weight: 300; background-color:#38A3DD; border: 0px; color: #fff; margin: 0 0 20px 0}
+button.start-discuss {font-size: 1.15em; }
+.v-menu .submenu {margin: 30px auto; font-size: .9em;}
+.v-menu .submenu-header {font-weight: 600; font-size: .9em; text-transform:uppercase; color:#333 }
+.v-menu .submenu ul {margin: 10px 0; padding:0; color:#1D8AC5} 
+.v-menu .submenu li {margin: .8em 0; list-style:none; padding: 0}
+.v-menu .submenu li a {color:#38a3DD; text-decoration:none}
+.v-menu .submenu li a:hover {text-decoration: underline}
+.button-icon {background-color: #E81F63; text-align:center; padding: 8px 10px; margin:3px 0; width: 50px }

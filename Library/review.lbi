@@ -1,19 +1,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <div class="review">
-  <header>
-    <!-- #BeginLibraryItem "/MarTechExec-screens/Library/rating.lbi" -->
-    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="icon-star-empty"></i> </div>
-    <!-- #EndLibraryItem -->
-    <h1>title</h1>
-    <div class="verified">verified or not</div>
-    <!-- #BeginLibraryItem "/MarTechExec-screens/Library/meta.lbi" -->
-    <div class="meta">
-      <div class="avatar">img</div>
-      <div class="author">Ryman Stringer</div>
-      <i class="fa fa-star"></i>
-      <div class="date">01.16.2017</div>
-    </div>
-    <!-- #EndLibraryItem -->
-  </header>
+  <header><!-- #BeginLibraryItem "/MarTechExec-screens/Library/rating.lbi" -->
+<div class="rating">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="icon-star-empty"></i> 
+  </div><!-- #EndLibraryItem --><h1>title</h1>
+    <div class="verified">verified or not</div><!-- #BeginLibraryItem "/MarTechExec-screens/Library/meta.lbi" -->
+<div class="meta">
+  <div class="avatar">img</div>
+  <div class="author">Ryman Stringer</div>
+  <i class="fa fa-star"></i>
+  <div class="date">01.16.2017</div>
+</div>
+<!-- #EndLibraryItem --></header>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</p>
 </div>

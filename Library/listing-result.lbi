@@ -7,12 +7,9 @@
     <div class="rating"></div>
     <div class="review"></div>
   </div>
-</li>
-<!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" -->
-<div class="taxonomy">
-  <ul>
-    <li>category</li>
-    <li>subcategory</li>
-  </ul>
-</div>
-<!-- #EndLibraryItem -->
+</li><!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" --><div class="taxonomy">
+          <ul>
+            <li>category</li>
+            <li>subcategory</li>
+          </ul>
+        </div><!-- #EndLibraryItem -->
