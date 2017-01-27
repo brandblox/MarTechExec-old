@@ -9,9 +9,10 @@
   </ul>
 </div>
 <!-- #EndLibraryItem -->
-</header>
 <h2>Product Name</h2>
+</header>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</p>
+<footer>
 <!-- #BeginLibraryItem "/MarTechExec-screens/Library/tags.lbi" -->
 <div class="related">
   <ul class="tags">
@@ -20,4 +21,6 @@
     <li>tag</li>
   </ul>
 </div>
-<!-- #EndLibraryItem --> </div>
+<!-- #EndLibraryItem --> 
+</footer>
+</div>

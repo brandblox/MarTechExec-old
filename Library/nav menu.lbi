@@ -1,8 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><aside>
   <div class="v-menu">
-    <button>Action button</button>
+    <button class="start-discuss">Start a Discussion</button>
     <div class="submenu type">
-      <div class="submenuheader"></div>
+      <div class="submenu-header"></div>
       <ul>
         <li>item 1</li>
         <li>item 2</li>

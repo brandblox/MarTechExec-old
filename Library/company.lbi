@@ -1,47 +1,53 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
 <div class="company">
-<div class="primary-actions">
-<button>Send a Message</button>
-<button>Click to Call</button>
-<button>Bookmark</button>
-</div>
-<div class="logo">logo</div>
-	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" -->
-	<div class="taxonomy">
-          <ul>
-            <li>category</li>
-            <li>subcategory</li>
-          </ul>
-        </div><!-- #EndLibraryItem -->
-      <h1>Company Name</h1>
-  <div class="social-link">social links</div>
-      <!-- #BeginLibraryItem "/MarTechExec-screens/Library/rating.lbi" -->
-      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="icon-star-empty"></i> </div>
+  <div class="primary-actions">
+    <button class="send">Send a Message</button>
+    <button class="call">Click to Call</button>
+    <button class="bookmark">Bookmark</button>
+  </div>
+  <div class="logo">logo</div>
+  <!-- #BeginLibraryItem "/MarTechExec-screens/Library/taxonomy.lbi" -->
+  <div class="taxonomy">
+    <ul>
+      <li>category</li>
+      <li>subcategory</li>
+    </ul>
+  </div>
   <!-- #EndLibraryItem -->
-	
-
-	
+  <h1>Company Name</h1>
+  <div class="social-link">social links</div>
+  <!-- #BeginLibraryItem "/MarTechExec-screens/Library/rating.lbi" -->
+  <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="icon-star-empty"></i> </div>
+  <!-- #EndLibraryItem --> 
 	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/excerpt.lbi" -->
-      <div class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</div>
-      <!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/solutions.lbi" -->          <div class="related">
-            <ul class="solutions">
-              <li>related solution</li>
-              <li>related solution</li>
-              <li>related solution</li>
-            </ul>
-          </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/comment-status.lbi" --><div class="comment-status">
-        <ul class="commenters">
-          <li>avatar</li>
-          <li>avatar</li>
-          <li>avatar</li>
-        </ul>
-        <div class="metrics">12345</div>
-      </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/MarTechExec-screens/Library/tags.lbi" --> 
-					<div class="related">
-            <ul class="tags">
-              <li>tag</li>
-              <li>tag</li>
-              <li>tag</li>
-            </ul>
-          </div><!-- #EndLibraryItem --></div>
+  <div class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum sem, nec commodo justo. Quisque vel lorem in arcu viverra pulvinar id sit amet nisi. Proin tempus est ut est iaculis gravida.</div>
+  <!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/solutions.lbi" -->
+  <div class="related">
+    <ul class="solutions">
+      <li>related solution</li>
+      <li>related solution</li>
+      <li>related solution</li>
+    </ul>
+  </div>
+  <!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/comment-status.lbi" -->
+  <div class="comment-status">
+    <ul class="commenters">
+      <li>avatar</li>
+      <li>avatar</li>
+      <li>avatar</li>
+    </ul>
+    <div class="metrics">12345</div>
+  </div>
+  <!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/MarTechExec-screens/Library/tags.lbi" -->
+  <div class="related">
+    <ul class="tags">
+      <li>tag</li>
+      <li>tag</li>
+      <li>tag</li>
+    </ul>
+  </div>
+  <!-- #EndLibraryItem -->
+  </div>
