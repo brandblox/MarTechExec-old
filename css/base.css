@@ -28,3 +28,218 @@ button.start-discuss {font-size: 1.15em; }
 .v-menu .submenu li a {color:#38a3DD; text-decoration:none}
 .v-menu .submenu li a:hover {text-decoration: underline}
 .button-icon {background-color: #E81F63; text-align:center; padding: 8px 10px; margin:3px 0; width: 50px }
+
+/* Styles for Discussion */
+
+.discussion {
+  position: relative;
+}
+
+.discussion .taxonomy {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: rgb(56,163,221);
+}
+
+.discussion ul, .discussion li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.discussion li {
+	display: inline-block;
+}
+
+.discussion h1 {
+  padding-right: 140px;
+}
+
+.discussion .meta {
+  margin: 12px 0 12px 0;
+}
+
+.discussion .meta .avatar {
+  height: 48px;
+  width: 48px;
+  margin: 0 8px 0 0;
+  display: inline-block;
+  float: left;
+  background-color: aquamarine;
+}
+
+.discussion .meta .author {
+  display: inline-block;
+}
+
+.discussion .meta i {
+  display: inline-block;
+}
+
+.discussion .upvote {
+  position: absolute;
+  font-size: 2em;
+  color: rgb(56,163,221);
+  right: 12px;
+  top: 32px;
+}
+
+.discussion .metrics {
+  text-align: center;
+}
+
+.discussion .source h6 {
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+.discussion .source .mte-bug {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+}
+
+.discussion .source a {
+  font-family: inherit;
+  color: rgb(56,163,221);
+  text-decoration: none;
+}
+
+.discussion .source a:hover {
+  text-decoration: underline;
+}
+
+.discussion footer {
+  position: relative;
+}
+
+.discussion footer .upvote {
+  position: relative;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.discussion footer .social.share {
+  position: absolute;
+  right: 4px;
+}
+
+.discussion footer .related {
+  margin-top: 60px;
+}
+
+.discussion footer .related .tags {
+  color: rgb(255,255,255);
+  
+}
+
+.discussion footer .related .tags li {
+  background-color: rgb(56,163,221);
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin: 0 8px 0 0;
+}
+
+.discussion footer .related .tags li:hover {
+  background-color: rgb(29,138,197);
+}
+
+/* END Styles for Discussion */
+
+/* Styles for comment-form */
+
+.comment-form {
+  position: relative;
+}
+
+.comment-form h3 {
+  color: rgb(56,163,221);
+}
+
+.comment-form .avatar {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  background-color: aquamarine;
+  position: relative;
+  top: 0;
+}
+
+.comment-form textarea {
+  vertical-align: text-top;
+  height: 200px;
+  width: 90%;
+}
+
+.comment-form button {
+  color: rgb(255,255,255);
+  background-color: rgb(56,163,221);
+  padding: 18px 22px;
+  border: none;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.comment-form button:hover {
+  background-color: rgb(29,138,197);
+}
+
+/* END Styles for comment-form */
+
+/* Styles for comments */
+
+.comments {
+  clear: both;
+  margin: 40px 0;
+}
+
+.comments .comment-status {
+  color: rgb(56,163,221);
+}
+
+.comments .comment-status .metrics {
+  display: inline-block;
+}
+
+.comments .comment {
+  
+}
+
+.comments .comment .level.one {}
+.comments .comment .level.two {
+  margin-left: 120px;
+}
+
+.comments .comment .level.three {
+  margin-left: 120px;
+}
+
+.comments .comment .meta {
+  margin: 12px 0 12px 0;
+}
+
+.comments .comment .meta .avatar {
+  height: 48px;
+  width: 48px;
+  margin: 0 8px 0 0;
+  display: inline-block;
+  float: left;
+  background-color: aquamarine;
+}
+
+.comments .comment .meta .author {
+  display: inline-block;
+}
+
+.comments .comment .meta i {
+  display: inline-block;
+}
+
+.comments .comment footer button {
+  border: 1px solid rgb(56,163,221);
+  background-color: rgb(255,255,255);
+  color: rgb(56,163,221);
+  padding: 14px 22px;
+  display: block;
+}
+
+/* END Styles for comments */
