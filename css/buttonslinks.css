@@ -105,4 +105,14 @@ button.asset {
 	color: rgba(255, 255, 255, 1);
 }
 
+button.reply {
+  border: 1px solid rgba(56, 163, 221, 1);
+  color: rgba(56, 163, 221, 1);
+  background-color: rgba(255,255,255,1);
+  }
+
+button.reply:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(56, 163, 221, 1);
+  }
 
