@@ -227,10 +227,18 @@
 	display: block;
 }
 
-.discuss-upvote {
+.discuss-head {
 	display: flex;
 	flex-direction: row;
-  	justify-content: space-between;
+  justify-content: space-between; 
+}
+
+.discuss-head .upvote i {
+  font-size: 1.7em;
+}
+
+.discuss-head .upvote span {
+ font-size: 1.2em;
 }
 
 .discuss.reply {
@@ -272,10 +280,32 @@
   align-self: center;
 }
 
-.top h6 {
+.discuss .top h6 {
   margin-top: .5em;
 }
 
 .discuss .footer .upvote {
   margin-top: 1em;
+}
+
+.discuss .social-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.discuss .social-actions .social-share ul {
+  list-style: none;
+  margin: 0 2px 0 0;
+}
+
+.discuss .social-actions .social-share ul li {
+  background-color: blue;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  display: inline-block;
 }
