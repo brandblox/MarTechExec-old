@@ -17,11 +17,11 @@ button, .c2a a {
 }
 /* Button types and format */
 button.tag {
-	border-radius: 2px;
-	padding: .4em .8em;
-	font-size: .7em;
-	text-transform: lowercase;
-	font-weight: 600;
+    border-radius: 2px;
+    padding: .4em .8em;
+    font-size: .8em;
+    text-transform: lowercase;
+    font-weight: 300;
 }
 button.upvote {
 	width: 3em;
@@ -44,12 +44,24 @@ button.large, button.start-discuss {
 	padding: 1em 2em;
 }
 .indicators button {
-	border-radius: 4px;
+padding: .4em .8em;
+    font-size: 1.5em;
+    border: 1px solid rgba(56, 163, 221, 1);
+    background: rgba(255,255,255,0);
+    color: rgba(56, 163, 221, 1);
+    border-radius: 0;
+}
+
+.indicators button .fa-bookmark-o {
+	margin-right: .3em;}
+
+.indicators button.bookmark {
 	padding: .4em .8em;
-	font-size: .8em;
-	border: 1px solid rgba(0,0,0,.2);
+	font-size: 1.2em;
+	border: 1px solid rgba(56, 163, 221, 1);
 	background: rgba(255,255,255,0);
-	color: rgba(0,0,0,1);
+	color: rgba(56, 163, 221, 1);
+	margin-bottom: 1.2em;
 }
 .category a {
 	text-transform: uppercase;
