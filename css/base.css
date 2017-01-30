@@ -130,7 +130,6 @@ button.start-discuss {font-size: 1.15em; }
 
 .discussion footer .related .tags {
   color: rgb(255,255,255);
-  
 }
 
 .discussion footer .related .tags li {
@@ -215,6 +214,11 @@ button.start-discuss {font-size: 1.15em; }
 
 .comments .comment .meta {
   margin: 12px 0 12px 0;
+}
+
+.comments .comment .upvote {
+  display: inline-block;
+  color: rgb(56,163,221);
 }
 
 .comments .comment .meta .avatar {
