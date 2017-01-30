@@ -97,9 +97,7 @@
 .sticky .category, .sticky .indicators, .sticky .tags, .sticky .upvote {
 	display: none;
 }
-.sticky .category, .sticky .upvote {
-	display: block;
-}
+
 .sticky .related {
 	visibility: hidden;
 }
@@ -126,16 +124,16 @@
 .discuss .meta {
 	font-size: .75em;
 	margin-bottom: 1em;
+	display: flex;
+	flex-direction: row;
 }
 .discuss .avatar {
-	float: left;
 	border-radius: 2em;
 	width: 2em;
 	height: 2em;
 	margin-right: .5em;
 }
 .discuss footer .avatar {
-	float: left;
 	border-radius: 2em;
 	width: 2em;
 	height: 2em;
@@ -159,6 +157,7 @@
 }
 .discuss .date {
 	font-size: inherit;
+	display: block;
 }
 .discuss .excerpt {
 	line-height: 1.5em;
@@ -226,9 +225,28 @@
     font-size: 1.2em;
 }
 
-/* Styles for discussion head */
+.sticky .category, .sticky .upvote {
+	display: block;
+}
 
 .discuss-upvote {
 	display: flex;
 	flex-direction: row;
+}
+
+.discuss.reply {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.discuss.reply.one {
+	margin-top: 2em;
+}
+
+.discuss.reply.two {
+	padding-left: 5em;
+}
+
+.discuss.reply.three {
+	padding-left: 10em;
 }
