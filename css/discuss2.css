@@ -237,7 +237,7 @@ section.discuss {
 }
 
 .discuss-head .upvote span {
- font-size: 1.2em;
+ font-size: 1em;
 }
 
 .discuss.reply {
@@ -287,25 +287,17 @@ section.discuss {
   margin-top: 1em;
 }
 
-.discuss .social-actions {
+/* .discuss .social-actions {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   align-items: center;
   margin-top: 2em;
-}
+} */
 
-.discuss .social-actions .social-share ul {
-  list-style: none;
-  margin: 0 2px 0 0;
-}
 
-.discuss .social-actions .social-share ul li {
-  background-color: blue;
-  height: 32px;
-  width: 32px;
-  border-radius: 32px;
-  display: inline-block;
+.discuss .upvote-spinoff {
+ display: flex; 
+ flex-direction: row;
 }
-
