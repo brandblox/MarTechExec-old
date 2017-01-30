@@ -66,6 +66,7 @@ padding: .4em .8em;
 .category a {
 	text-transform: uppercase;
 	font-size: .8em;
+  letter-spacing: .05em;
 }
 
 /* Specific button colors */

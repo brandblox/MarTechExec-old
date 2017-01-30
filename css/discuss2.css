@@ -43,6 +43,7 @@
 	order: 1;
 	flex: 2 1 auto;
 	align-self: flex-start;
+  margin-top: 1em;
 }
 .discuss .indicators {
 	order: 2;
@@ -94,15 +95,18 @@
 	flex-basis: 13em;
 	text-align: right;
 }
-.sticky .category, .sticky .indicators, .sticky .tags, .sticky .upvote {
-	display: none;
+.discuss .sticky .category, .sticky .indicators, .sticky .tags, .sticky .upvote {
+	display: auto;
+  margin-top: .5em;
 }
 
 .sticky .related {
 	visibility: hidden;
 }
-.discuss {
+
+section.discuss {
 	margin-left: 3em;
+  margin-top: 2.2em;
 }
 .discuss.sticky {
 	-webkit-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
@@ -110,15 +114,17 @@
 	box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
 }
 .discuss h1 {
-	font-size: 1.8em;
+	font-size: 2em;
 	font-weight: 300;
 	margin-bottom: .5em;
+  margin-top: .3em;
 }
 .discuss .meta {
 	font-size: .75em;
 	margin-bottom: 1em;
 	display: flex;
 	flex-direction: row;
+  margin-top: 2.5em;
 }
 .discuss .avatar {
 	border-radius: 2em;
@@ -216,7 +222,7 @@
     font-size: 1.2em;
 }
 
-.sticky .category, .sticky .upvote {
+.discuss .sticky .category, .sticky .upvote {
 	display: block;
 }
 
