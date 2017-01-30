@@ -251,3 +251,33 @@
 .discuss.reply.three {
 	padding-left: 10em;
 }
+
+.discuss .tags {
+  display: block;
+  margin-top: 1em;
+}
+
+.discuss .source {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.discuss .source .mte-bug {
+  width: 30px;
+  height: 30px;
+  margin-right: .5em;
+}
+
+.discuss .source .article-link {
+  display: flex;
+  align-self: center;
+}
+
+.top h6 {
+  margin-top: .5em;
+}
+
+.discuss .footer .upvote {
+  margin-top: 1em;
+}
