@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*.indicators {    
+text-align: -webkit-right;
+float: right;}
+
+.indicators button i {
+margin-right: .3em;
+}*/
+
+.discuss section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: stretch;
+}
+.discuss .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+.discuss aside.upvote {
+	order: 1;
+	flex: 0 0 auto;
+	align-self: auto;
+	margin-right: 1em;
+}
+.discuss article {
+	order: 2;
+	flex: 1 0 auto;
+	align-self: auto;
+	flex-basis: 1em;
+}
+.discuss header {
+	order: 1;
+	flex: 1 1 auto;
+	align-self: auto;
+}
+.discuss header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: flex-start;
+}
+.discuss .top {
+	order: 1;
+	flex: 2 1 auto;
+	align-self: flex-start;
+}
+.discuss .indicators {
+	order: 2;
+	flex: 1 1 auto;
+	text-align: right;
+}
+.discuss .excerpt {
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+}
+.discuss footer {
+	order: 3;
+	flex: 1 1 auto;
+	align-self: auto;
+}
+.discuss footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+.discuss .status {
+	order: 1;
+	flex: 0 0 auto;
+	align-self: stretch;
+}
+.discuss .tags, .asset {
+	order: 2;
+	flex: 0 0 auto;
+	align-self: stretch;
+}
+.discuss .status {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: space-between;
+	align-items: center;
+}
+.discuss .related {
+	order: 1;
+	flex: 0 0 auto;
+	align-self: flex-start;
+}
+.discuss .comments {
+	order: 2;
+	flex: 0 0 auto;
+	flex-basis: 13em;
+	text-align: right;
+}
+.sticky .category, .sticky .indicators, .sticky .tags, .sticky .upvote {
+	display: none
+}
+.sticky .related {
+	visibility: hidden;
+}

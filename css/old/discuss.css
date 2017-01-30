@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.discuss {
+    font-size: 1em;
+    font-weight: 300;
+    padding: .5em 1.5em 1.5em;
+    background-color: rgba(255,255,255,1);
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+}
+.discuss.sticky {
+	-webkit-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+}
+.discuss h1 {
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.discuss .meta {
+	font-size: .75em;
+	margin-bottom: 1em;
+}
+.discuss .avatar {
+	float: left;
+	border-radius: 2em;
+	width: 2em;
+	height: 2em;
+	margin-right: .5em;
+}
+.discuss footer .avatar {
+    float: left;
+    border-radius: 2em;
+    width: 2em;
+    height: 2em;
+    margin-right: .5em;
+    margin-left: -1em;
+    border: solid 1px rgba(255,255,255,.5);
+}
+
+.discuss .author {
+	float: left;
+	margin-right: 10px;
+	font-size: inherit;
+}
+.discuss .author a, .discuss .metrics a {
+	font-size: inherit;
+}
+
+.discuss .metrics{padding-top: .5em;
+font-size: .8em;}
+.discuss .fa fa-star {
+}
+.discuss .date {
+	font-size: inherit;
+}
+.discuss .excerpt {
+	line-height: 1.5em;
+}
+.discuss footer .comment-status{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content: flex-end;
+	justify-content:flex-end;
+}
+
+.discuss footer .comment-status .related {
+	-webkit-flex: 1 0 ;
+	flex: 1 0 ;
+	order: 1;
+}
+
+.discuss footer .comment-status .avatars {
+	-webkit-flex: 1 0 ;
+	flex: 1 0 ;
+	order: 2;
+}
+.discuss footer .comment-status .metrics {
+	-webkit-flex: 1 0 ;
+	flex: 1 0 ;
+	order: 3;
+}
+.discuss .metrics a {text-decoration: none}
+.discuss .metrics a:hover {text-decoration: underline}

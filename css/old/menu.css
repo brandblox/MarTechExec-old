@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menu h3 {
+	text-transform: uppercase;
+	margin: 1.5em auto .5em;
+	font-size: .85em;
+}
+.menu li {
+	list-style: none;
+	margin: .5em auto;
+}
+.menu a {
+	font-weight: 300;
+	font-size: .9em;
+}
+.menu a, .c2a a {
+	text-decoration: none;
+}
+.menu a:hover, .c2a a:hover {
+	text-decoration: underline
+}

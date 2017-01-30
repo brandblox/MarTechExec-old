@@ -1,0 +1,556 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h6, div, ul, li, a, input, button {
+	font-family: Adelle Sans, Arial, sans-serif;
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: Bitter, Cambria, sans-serif;
+}
+body {
+	margin: 0;
+	background-color: rgba(0, 0, 0, .03);
+	color: #333
+}
+header.page {
+	width: 100%;
+	background-color: rgba(0, 7, 43, 1);
+	padding: 10px 0;
+}
+.top {
+	max-width: 1280px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	order: 2;
+	flex-grow: .7;
+	background-color: rgba(0, 0, 0,.5);
+	margin: 0 auto;
+}
+.search input {
+	order: 1;
+	width: 100%;
+	padding: .2em;
+}
+.logo {
+	/* put the nav on the left */
+	order: 1;
+	background-color: rgba(0, 0, 0,.1);
+	width: 14em;
+}
+main {
+	width: 100%;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+}
+.inner-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	order: 2;
+	flex-grow: .7;
+	flex-wrap: wrap;
+}
+aside.menu {
+	order: 1;
+	flex-basis: 30%;
+	height: 300px
+}
+.inner-container {
+	order: 2;
+	flex-basis: 80%;
+	height: 300px;
+}
+aside.related {
+	order: 3;
+	flex-basis: 30%;
+	height: 300px;
+}
+.c2a {
+	order: 3;
+	text-align: right;
+	background-color: rgba(0, 0, 0,.1);
+}
+.search .fa-search {
+	color: #fff;
+	order: 2;
+	background-color: rgba(232, 31, 99, 1);
+	padding: .45em;
+}
+button, .c2a a {
+	padding: .4em .8em;
+	color: #fff;
+	font-size: .8em;
+	border: 0;
+}
+button.join {
+	background-color: rgba(255, 88, 6, 1);
+}
+button.login {
+	background-color: none;
+}
+.filter {
+	color: #1D8AC5;
+	width: 100%;
+	text-align: right;
+}
+.filter .label {
+	font-size: .9em;
+	font-weight: 100;
+	margin: 0;
+}
+.filter select {
+	border: 0;
+	color: #1D8AC5;
+	font-size: 1.2em;
+	text-align: -webkit-right;
+	align-items: right;
+	background-color: transparent;
+}
+.filter option {
+	text-align: right;
+}
+button.start-discuss {
+	font-size: 1.15em;
+	display: block;
+	padding: 20px 50px;
+	font-weight: 300;
+	background-color: #38A3DD;
+	border: 0px;
+	color: #fff;
+	margin: 0 0 20px 0
+}
+aside nav {
+	margin: 30px auto;
+}
+aside h3 {
+	font-size: .7em;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+aside nav ul {
+	margin-top: .1em;
+	margin-bottom: .2em;
+	font-size: 3em;
+	padding: 0;
+}
+aside nav li {
+	list-style: none;
+	margin-bottom: .5em;
+}
+aside nav li a, .discuss .author a, .discuss .metrics a {
+	color: #38a3DD;
+	text-decoration: none;
+}
+aside nav li a {
+	font-size: .74em;
+}
+aside nav li a:hover, .discuss .author a:hover, .discuss .metrics a:hover {
+	text-decoration: underline;
+}
+#home aside.related {
+	display: none
+}
+.discuss {
+	font-size: 1em;
+	font-weight: 300;
+	padding: 10px 20px 20px;
+	background-color: rgba(255,255,255,1);
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.sticky .discuss {
+	-webkit-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
+}
+.discuss h1 {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+.discuss .meta, .discuss .metrics {
+	font-size: .75em;
+	margin-bottom: 1em;
+}
+.discuss .avatar {
+	float: left;
+	border-radius: 2em;
+	width: 2em;
+	height: 2em;
+	margin-right: .5em;
+}
+.discuss .commenters .avatar {
+	margin-left: -1.2em
+}
+.discuss .author {
+	float: left;
+	margin-right: 10px;
+	font-size: inherit;
+}
+.discuss .author a, .discuss .metrics a {
+	font-size: inherit;
+}
+.discuss .fa fa-star {
+}
+.discuss .date {
+	font-size: inherit;
+}
+.discuss .excerpt {
+	line-height: 1.5em;
+}
+.discuss .commenters {
+}
+.discuss .metrics {
+}
+.discuss .featured-assets {
+}
+.discuss .asset {
+}
+
+@media screen and (min-width:600px) {
+.container {
+	flex-wrap: nowrap;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+aside .menu {
+	flex-basis: 200px;
+	order: 1;
+}
+.inner-container {
+	flex-basis: 1;
+	order: 2;
+}
+aside .related {
+	flex-basis: 200px;
+	order: 3;
+}
+}
+</style>
+</head>
+
+<body id="home">
+<header class="page">
+  <div class="top">
+    <div class="search">
+      <input type="search" placeholder="search..." />
+      <i class="fa fa-search"></i></div>
+    <div class="logo"><img src="../images/MTE_logo.svg" alt=""/></div>
+    <div class="c2a"> <a>Log In</a>
+      <button class="join">Join</button>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <aside class="menu">
+      <button class="start-discuss">Start a Discussion</button>
+      <nav class="type">
+        <h3>Type</h3>
+        <ul>
+          <li><a href="#">Discussions</a></li>
+          <li><a href="#">Listings</a></li>
+        </ul>
+      </nav>
+      <nav class="category">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">MarTech</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Advertising &amp; Promotion</a></li>
+          <li><a href="#">Commerce &amp; Sales</a></li>
+          <li><a href="#">Content &amp; Experience</a></li>
+          <li><a href="#">Data</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Social &amp; Relationships</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="inner-container">
+      <div class="filter">
+        <h4 class="label">Top discussions</h4>
+        <select>
+          <option>Today</option>
+        </select>
+      </div>
+      <section class="sticky">
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+      </section>
+      <section class="results">
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+        <div class="discuss">
+          <header>
+            <h1>Example discussion post title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star"></i>
+              <div class="date">on 01.16.2017</div>
+            </div>
+          </header>
+          <div class="excerpt"> Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros tincidunt euismod sed vitae tortor. Nunc in dapibus ex. Sed lorem nibh, suscipit nec magna lacinia, egestas consequat quam. </div>
+          <footer>
+            <div class="comment-status">
+              <div class="commenters"> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> <span class="avatar" style="background: url(../images/lana-tuned-small.jpg) 50% 50%;"></span> </div>
+              <div class="metrics"><a href="#">75 comments <i class="fa fa-comment-o" aria-hidden="true"></i> </a></div>
+            </div>
+            <div class="featured-asset">
+              <div class="asset"></div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </div>
+    <aside class="related">
+      <h2>Related Solutions</h2>
+      <div class="result sponsor">
+        <div class="logo"></div>
+        <h3>company name</h3>
+        <div class="metrics">
+          <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+          <div class="review"></div>
+        </div>
+        <div class="taxonomy">
+          <ul>
+            <li>category</li>
+            <li>subcategory</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+<footer>
+<nav class="one">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">MarTech</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Advertising &amp; Promotion</a></li>
+          <li><a href="#">Commerce &amp; Sales</a></li>
+          <li><a href="#">Content &amp; Experience</a></li>
+          <li><a href="#">Data</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Social &amp; Relationships</a></li>
+        </ul>
+</nav>	
+<nav class="two">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">MarTech</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Advertising &amp; Promotion</a></li>
+          <li><a href="#">Commerce &amp; Sales</a></li>
+          <li><a href="#">Content &amp; Experience</a></li>
+          <li><a href="#">Data</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Social &amp; Relationships</a></li>
+        </ul>
+</nav>	
+<nav class="three">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">MarTech</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Advertising &amp; Promotion</a></li>
+          <li><a href="#">Commerce &amp; Sales</a></li>
+          <li><a href="#">Content &amp; Experience</a></li>
+          <li><a href="#">Data</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Social &amp; Relationships</a></li>
+        </ul>
+</nav>	
+<nav class="four">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">MarTech</a></li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Advertising &amp; Promotion</a></li>
+          <li><a href="#">Commerce &amp; Sales</a></li>
+          <li><a href="#">Content &amp; Experience</a></li>
+          <li><a href="#">Data</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Social &amp; Relationships</a></li>
+        </ul>
+</nav>	
+</footer>
+</body>
+</html>

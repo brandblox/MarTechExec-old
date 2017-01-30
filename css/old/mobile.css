@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* mobile layout */
+@media (max-width: 480px) {
+.container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-flex-orient: vertical;
+	-webkit-orient: vertical;
+	orient: vertical;
+}
+.menu {
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+	-ms-flex-order: 2;
+	-webkit-order: 2;
+	order: 2;
+}
+.content {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-ms-flex-order: 1;
+	-webkit-order: 1;
+	order: 1;
+}
+.related {
+	-webkit-box-ordinal-group: 3;
+	-moz-box-ordinal-group: 3;
+	-ms-flex-order: 3;
+	-webkit-order: 3;
+	order: 3;
+}
+}

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+	padding: 0;
+	background-color: rgba(0, 0, 0, .03);
+    }
+
+header.page {
+    order: 1;
+    flex: 0 0 auto;
+    align-self: stretch;
+	background: rgba(0, 7, 43, 1);
+    }
+
+main {
+    order: 2;
+    flex: 1 0 auto;
+    align-self: stretch;
+    }
+
+footer.page {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: stretch;
+	background: rgba(0, 7, 43, 1);
+    }
+
+header.page .block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+aside.menu {
+    order: 1;
+    flex: 0 0 auto;
+    align-self: stretch;
+    }
+
+aside.related {
+    order: 3;
+    flex: 0 0 auto;
+    align-self: stretch;
+    }
+.wrapper {
+    order: 2;
+    flex: 1;
+    align-self: auto;
+    }
+#discussion .discuss {margin-left: 0; margin-right: 1.5em}
+

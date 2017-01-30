@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.avatar img{
+width: 36px;
+height: 36px;
+border-radius: 36px;	
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, h1, h2, h3, h4, h6, div, ul, li, a, input, button {
+	font-family: Adelle Sans, Arial, sans-serif;
+	font-size: 14px;
+}
+h1, h2 {
+	font-family: Bitter, Cambria, sans-serif;
+}
+body {
+	padding: 0;
+	background-color: rgba(0, 0, 0, .03);
+}
+.content, .menu, .related {
+	padding: 1em;
+}
+.indicator {
+	color: rgba(232, 31, 99, 1)
+}
+.c2a {
+	text-align: right
+}
+.related .logo {
+	width: 100%;
+	padding: 0;
+	background-color: rgba(255,255,255,0);
+	border: solid 1px #ccc;
+}
+
+#home aside.related {
+	display: none
+}
+
+

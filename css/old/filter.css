@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.filter {
+	color: #1D8AC5;
+	width: 100%;
+	text-align: right;
+}
+.filter .label {
+	font-size: .8em;
+	font-weight: 100;
+	margin: 0;
+}
+.filter select {
+	border: 0;
+	color: #1D8AC5;
+	font-size: 1.2em;
+	background-color: transparent;
+}
+.filter option {
+	text-align: right;
+}

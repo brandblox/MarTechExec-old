@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+
+.HolyGrail {
+	display: flex;
+	height: 100%; /* 1, 3 */
+	flex-direction: column;
+}
+.HolyGrail-header, .HolyGrail-footer {
+	flex: none; /* 2 */
+}
+.HolyGrail-body {
+	display: flex;
+	flex: 1 0 auto; /* 2 */
+	flex-direction: column;
+	padding: var(--space);
+}
+.HolyGrail-content {
+	margin-top: var(--space);
+}
+.HolyGrail-nav {
+	order: -1;
+}
+.HolyGrail-nav, .HolyGrail-ads {
+	padding: 1em;
+	border-radius: 3px;
+	background: rgba(147, 128, 108, 0.1);
+}
+ @media (--break-lg) {
+ .HolyGrail-body {
+ flex-direction: row;
+}
+ .HolyGrail-content {
+ flex: 1;
+ padding: 0 var(--space-lg);
+ margin: 0;
+}
+ .HolyGrail-nav, .HolyGrail-ads {
+ flex: 0 0 12em;
+}
+}
+</style>
+</head>
+
+  <body class="HolyGrail">
+    <header class="HolyGrail-header">
+      <div class="Header Header--cozy" role="banner">
+        Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @lanakm
+ Watch 373
+  Star 9,294
+ Fork 699 philipwalton/solved-by-flexbox
+ Code  Issues 12  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathsolved-by-flexbox/templates/header.html
+0768b90  on Jun 8, 2016
+@philipwalton philipwalton Update all self links to https
+1 contributor
+RawBlameHistory     
+25 lines (24 sloc)  1.14 KB
+<div class="Header-titles">
+  <h1 class="Header-title"><a href="{{ site.baseUrl }}">Solved <i>by</i> Flexbox</a></h1>
+  <h2 class="Header-subTitle">{{ site.tagline }}</h2>
+</div>
+<div class="Header-actions">
+  <a class="Header-button Button Button--action Button--wide"
+     ga-on="click"
+     ga-hit-type="social"
+     ga-social-network="Github"
+     ga-social-action="view-source"
+     ga-social-target="https://github.com/philipwalton/solved-by-flexbox"
+     href="https://github.com/philipwalton/solved-by-flexbox">
+    <span class="icon-github icon-large"></span>&nbsp; View Project Source
+  </a>
+  <a class="Header-button Button Button--wide"
+     ga-on="click"
+     ga-hit-type="social"
+     ga-social-network="Twitter"
+     ga-social-action="tweet"
+     ga-social-target="https://philipwalton.github.com/solved-by-flexbox{{ page.permalink }}"
+     href="https://twitter.com/intent/tweet?text={{ 'A showcase of traditionally hard CSS problems, easily solved using flexbox.' | urlencode }}&url=https://philipwalton.github.com/solved-by-flexbox/&via=philwalton">
+    <span class="icon-twitter icon-large twitter-color"></span>&nbsp; Spread the Word
+  </a>
+</div>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
+      </div>
+    </header>
+    <main class="HolyGrail-body">
+      <article class="HolyGrail-content">
+        <h1>{{ page.title }}</h1>
+        {{ page.content }}
+      </article>
+      <nav class="HolyGrail-nav u-textCenter">
+        <strong>Navigation</strong>
+      </nav>
+      <aside class="HolyGrail-ads u-textCenter">
+        <strong>Advertisements</strong>
+      </aside>
+    </main>
+    <footer class="HolyGrail-footer">
+      <div class="Footer">
+        Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @lanakm
+ Watch 373
+  Star 9,294
+ Fork 699 philipwalton/solved-by-flexbox
+ Code  Issues 12  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathsolved-by-flexbox/templates/footer.html
+0768b90  on Jun 8, 2016
+@philipwalton philipwalton Update all self links to https
+2 contributors @philipwalton @bendem
+RawBlameHistory     
+13 lines (10 sloc)  1.17 KB
+<span class="Footer-social">
+  <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=philipwalton&repo=solved-by-flexbox&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="106px" height="20px"></iframe>
+  <a href="https://twitter.com/philwalton" class="twitter-follow-button" data-show-count="true" data-lang="en">@philwalton</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="A showcase of traditionally hard CSS problems, easily solved using flexbox." data-url="https://philipwalton.github.io/solved-by-flexbox/" data-count="horizontal" data-via="philwalton" data-related="philwalton:Creator of Solved by Flexbox">Tweet</a>
+</span>
+<div class="Footer-credits">
+  <span class="Footer-credit">Created and maintained by <a href="https://philipwalton.com">Philip Walton</a>.</span>
+
+  <span class="Footer-credit">Source code and examples released under the <a href="https://github.com/philipwalton/solved-by-flexbox/blob/master/LICENSE">MIT</a> license.</span>
+
+  <span class="Footer-credit">Website and documentation licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</span>
+</div>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
+      </div>
+    </footer>
+    {% include 'scripts.html' %}
+  </body>
+</html>
