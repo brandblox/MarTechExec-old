@@ -200,7 +200,9 @@ order: 3;
 }
 
 #article .discussions .discuss {
-	margin-left: 0;}
+	margin: 0;
+	border-top: .05em solid rgba(56, 163, 221, .1);
+	}
 
 #article .discussions .discuss .container {
     display: flex;
@@ -232,4 +234,8 @@ order: 3;
     order: 2;
     flex: 1 0 auto;
     text-align: right;
+}
+
+#article .discussions .block-full-size .next-steps {
+	
 }

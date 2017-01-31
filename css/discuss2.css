@@ -210,7 +210,7 @@
 	margin-right: 2em;
 }
 .discuss .cover {
-	background-color: #efefef;
+    background-color: rgba(0, 7, 43, .05);
 	margin: 1em auto;
 	padding: 2em;
 	display: block;
