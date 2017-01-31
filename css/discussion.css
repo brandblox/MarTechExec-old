@@ -139,3 +139,22 @@
 #discussion .reply p {
 	border-left: 4px solid rgba(225,225,225,1);
 }
+
+#discussion .discuss.new-comment {
+	display: flex;
+	flex-direction: column;
+}
+
+#discussion .discuss.new-comment div.input {
+	display: flex;
+	flex-direction: row;
+}
+
+#discussion .discuss.new-comment textarea {
+	flex: 1;
+	height: 10em;
+}
+
+#discussion .discuss.new-comment button {
+	align-self: flex-end;
+}

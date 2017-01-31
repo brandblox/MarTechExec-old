@@ -80,7 +80,7 @@ button.tag {
 	background: rgba(56, 163, 221, 1);
 	color: rgba(255,255,255,1);
 }
-button.start-discuss {
+button.start-discuss, button.submit-comment {
 	background-color: rgba(56, 163, 221, 1);
 	color: rgba(255, 255, 255, 1);
 }
@@ -122,19 +122,24 @@ button.reply {
   border: 1px solid rgba(56, 163, 221, 1);
   color: rgba(56, 163, 221, 1);
   background-color: rgba(255,255,255,1);
-  }
+}
 
 button.reply:hover {
   color: rgba(255,255,255,1);
   background-color: rgba(56, 163, 221, 1);
-  }
+}
   
-  button.discuss-upvote {
-	padding: .4em .8em;
-	font-size: 1em;
-	border: 1px solid rgba(56, 163, 221, 1);
-	background: rgba(255,255,255,1);
-	color: rgba(56, 163, 221, 1);
-	margin-bottom: 1.2em;
-  }
+button.discuss-upvote {
+padding: .4em .8em;
+font-size: 1em;
+border: 1px solid rgba(56, 163, 221, 1);
+background: rgba(255,255,255,1);
+color: rgba(56, 163, 221, 1);
+margin-bottom: 1.2em;
+}
+button.submit-comment {
+	margin-top: 1em;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.25);
+	padding: 18px 20px;
+}
 
