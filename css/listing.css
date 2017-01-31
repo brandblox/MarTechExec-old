@@ -1,68 +1,5 @@
 @charset "utf-8";
 /* CSS styles for listing page */
-#listing .banner{    
-    order: 2;
-		background-image: url(../images/advertising_search-8_10p.png);
-		background-repeat:repeat; 
-		background-color: rgba(232, 31, 99, 1);
-}
-#listing .banner h3  { 
-margin-top: 3em;
-}
-#listing .banner h3 a {    
-    color: #fff;
-    font-weight: 100;
-    font-size: 1em;
-    margin-bottom: 0;
-}
-#listing .banner h1 {    
-display: block;
-    font-size: 2em;
-    color: rgba(255,255,255,1);
-    clear: both;
-    font-weight: 100;
-}
-.banner  {
-
-    }
-.banner .author a {
-color: rgba(255,255,255,1);
-    }		
-		
-.banner .avatar {		
-		float: left;
-    border-radius: 4em;
-    width: 4em;
-    height: 4em;
-    margin-right: .5em;}
-.banner .block {
-
-    }
-
-.banner .headline {
-
-
-    }
-		
-.banner .meta {
-		margin: 2em 0;
-    color: rgba(255,255,255,1);
-    line-height: 1.3em;
-    font-size: 1.2em;
-    font-style: italic;
-    font-family: Bitter, Cambria, sans-serif;
-    }
-	.banner .date {
-
-    }	
-#listing .banner .tags, #listing .listing .tags {
-font-size: 1.2em;
-    font-family: Adelle Sans, Arial, sans-serif;
-}
-
-.banner .tag {
-letter-spacing: .025em;
-}		
 
 .listing .container {
 	display: flex;
@@ -82,6 +19,34 @@ font-size: 1.125em;}
 	justify-content: center;
 	align-content: center;
 	align-items: stretch;
+}
+
+#listing .categories h3 {
+	display: inline-block;
+	font-size: inherit;
+}
+
+#listing .categories ul {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+#listing .categories ul li {
+	display: inline-block;
+}
+
+.listing .product h4 {
+	font-family: Bitter, Cambria, sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 0.8em;
+}
+
+.listing .product {
+	margin-bottom: 2em;
+}
+
+.listing .product .description {
+	line-height: 1.6em;
 }
 
 .listing article {
@@ -115,10 +80,10 @@ font-size: 1.125em;}
 	flex: 1 1 auto;
 }
 .listing .indicators.end {
-margin: 2em 0 0;
+	margin: 2em 0 0;
 }
-.indicators.end button.bookmark
-{margin-bottom: 0;
+.indicators.end button.bookmark {
+	margin-bottom: 0;
 }
 
 .listing .content {
