@@ -61,7 +61,7 @@ button.tag {
 	background: rgba(56, 163, 221, 1);
 	color: rgba(255,255,255,1);
 }
-button.start-discuss, button.submit-comment {
+button.start-discuss, button.submit-comment, button.send-message, button.make-call {
 	background-color: rgba(56, 163, 221, 1);
 	color: rgba(255, 255, 255, 1);
 }

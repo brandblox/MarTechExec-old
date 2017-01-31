@@ -224,3 +224,33 @@ order: 3;
  margin-top: 3em;
  justify-content: center; 
 }
+
+#listing header {
+	justify-content: space-between;
+}
+
+#listing .actions button {
+	margin-bottom: 1em;
+}
+.listing-info {
+	margin-bottom: 1.2em;
+}
+
+.listing-info .rating {
+	color:rgba(230, 195, 0, 1);
+	font-size: 1.8em;
+	display: inline-block;
+}
+.listing-info .review {
+	display:inline-block;
+	margin-left: 0.6em;
+	font-style: italic;
+}
+.listing-info h1 {
+	font-size: 2em;
+	margin-right: 1em;
+	display: inline-block;
+}
+.listing-info .social-links, .listing-info .social-links li {
+	display: inline-block;
+}
