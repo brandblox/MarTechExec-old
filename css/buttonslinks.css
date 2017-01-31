@@ -128,4 +128,13 @@ button.reply:hover {
   color: rgba(255,255,255,1);
   background-color: rgba(56, 163, 221, 1);
   }
+  
+  button.discuss-upvote {
+	padding: .4em .8em;
+	font-size: 1em;
+	border: 1px solid rgba(56, 163, 221, 1);
+	background: rgba(255,255,255,0);
+	color: rgba(56, 163, 221, 1);
+	margin-bottom: 1.2em;
+  }
 
