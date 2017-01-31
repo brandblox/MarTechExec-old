@@ -227,15 +227,23 @@ order: 3;
 
 #article .discussions .discuss footer {
     order: 3;
-    flex: 1 1 auto;
-    align-self: auto;
+    flex: 0 1 auto;
+    width: 13em;
     }
 #article .discussions .discuss .comments {
     order: 2;
     flex: 1 0 auto;
     text-align: right;
 }
-
-#article .discussions .block-full-size .next-steps {
-	
+#article .next-steps{
+    margin: 1em auto 1.2em;
+    text-align: center;
+}
+#article .block-full-size {
+	  margin-bottom: 1em;
+    margin-top: -1.5em;
+}
+#article .next-steps button {
+	    display: inline;
+			margin-top: 1em;
 }
