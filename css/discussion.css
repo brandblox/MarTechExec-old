@@ -1,22 +1,33 @@
 @charset "utf-8";
 /* Styles and overrides for the full discussion page */
-.discuss .top {
+
+#discussion .discuss .top {
+	/*margin-top: 1em;*/
+}
+#discussion .discussion-bar {
+	background-color: rgba(232,31,99,0.12);
+	margin: -14px -21px 20px -21px;
+	padding: 8px 12px;
+	display: flex;
+	flex-direction: row;
+}
+#discussion .discussion-bar .upvote {
 	order: 1;
-	flex: 2 1 auto;
+	flex: 1 1 auto;
 	align-self: flex-start;
 }
-#discussion .discuss .top {
-	margin-top: 1em;
+#discussion .discussion-bar .spinoff {
+	order: 2;
+	flex: 2 1 auto;
+	align-self: flex-start;
 }
 #discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags, #discussion .sticky .upvote {
 	display: auto;
   	margin-top: .5em;
 }
-
 #discussion .sticky .related {
 	visibility: hidden;
 }
-
 #discussion section.discuss {
   	margin-top: 2.2em;
 }
@@ -28,6 +39,10 @@
 	display: flex;
 	flex-direction: row;
   	margin-top: 2.5em;
+}
+
+#discussion .reply .meta {
+  	margin-top: 0.75em;
 }
 #discussion .discuss .author {
 	font-size: 0.75em;
@@ -42,14 +57,12 @@
 
 #discussion .discuss-head {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
   	justify-content: space-between; 
 }
-
 #discussion .discuss-head .upvote i {
   font-size: 1.7em;
 }
-
 #discussion .discuss-head .upvote span {
  font-size: 1.2em;
 }
@@ -121,4 +134,8 @@
   width: 32px;
   border-radius: 32px;
   display: inline-block;
+}
+
+#discussion .reply p {
+	border-left: 4px solid rgba(225,225,225,1);
 }
