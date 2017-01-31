@@ -225,6 +225,58 @@ order: 3;
  justify-content: center; 
 }
 
+#listing .reviews h4 {
+  font-family: Bittter, Cambria, sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 0.8em;
+}
+
+#listing .reviews h2 {
+  font-size: 1.2em;
+}
+
+#listing .verified {
+  background-color:rgba(56, 163, 221, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  padding: .4em, .8em;
+  font-size: .8em;
+  font-weight: 300;
+}
+
+#listing .review-options {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+#listing h2 {
+  flex: 1;
+}
+
+#listing .filter {
+  flex: 1;
+}
+
+#listing .review-header {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start; 
+}
+
+#listing .rating {
+  margin-right: .8em;
+  color: rgba(230, 195, 0, 1);
+  font-size: 1.5em;
+}
+
+#listing .review-header h4 {
+ margin-right: 1em; 
+}
+
+#listing .meta {
+  margin-bottom: 1em;
+}
 #listing header {
 	justify-content: space-between;
 }
