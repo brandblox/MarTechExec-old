@@ -114,6 +114,18 @@
   margin-top: 1em;
 }
 
+#discussion .reply footer {
+	display: flex;
+	flex-direction: row;
+}
+
+#discussion .reply footer input {
+	flex: 1;
+	height: 1.9em;
+	margin-right: 0.8em;
+	font-style: italic;
+}
+
 #discussion .discuss .social-actions {
   display: flex;
   flex-direction: row;
