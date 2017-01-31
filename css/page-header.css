@@ -1,69 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-
-header .block  {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: stretch;
-	align-items: center;
-}
-.block {
-	margin: 1.5em auto;
-	max-width: 960px;
-}
-.logo {
-	order: 1;
-	align-self: auto;
-	min-width: 200px;
-	max-width: 300px;
-}
-.search {
-	order: 2;
-	flex: .8 2 1em;
-	align-self: auto;
-	margin: 0 auto;
-	text-align: center;
-}
-.search {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-}
-.search input {
-	order: 1;
-	flex: 1 0 auto;
-	align-self: auto;
-	padding: .4em;
-}
-.search .fa-search {
-	color: #fff;
-	order: 2;
-	flex: 0 0 auto;
-	align-self: auto;
-	background-color: rgba(232, 31, 99, 1);
-	padding: .668em;
-}
-.c2a {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-content: stretch;
-	align-items: center;
-	order: 3;
-}
-.login {
-	order: 1;
-	flex: 0 0 auto;
-	align-self: auto;
-}
-.join {
-	order: 2;
-	flex: 0 0 auto;
-	align-self: auto;
-}
+header .block { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-content: stretch; align-items: center; }
+.block { margin: 1.5em auto; max-width: 960px; }
+.logo { order: 1; align-self: auto; min-width: 200px; max-width: 300px; }
+.search { order: 2; flex: .8 2 1em; align-self: auto; margin: 0 auto; text-align: center; }
+.search { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: center; }
+.search input { order: 1; flex: 1 0 auto; align-self: auto; padding: .4em; }
+.search .fa-search { color: #fff; order: 2; flex: 0 0 auto; align-self: auto; background-color: rgba(232, 31, 99, 1); padding: .668em; }
+.c2a { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-content: stretch; align-items: center; order: 3; }
+.login { order: 1; flex: 0 0 auto; align-self: auto; }
+.join { order: 2; flex: 0 0 auto; align-self: auto; }

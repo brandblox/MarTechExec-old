@@ -1,23 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-aside.related h2 {
-	font-family: Adelle Sans, Arial, sans-serif;
-	font-weight: 100;
-}
-aside.related li {list-style: none;
-margin-bottom: .5em;
-display: inline;}
-
-aside.related .result.sponsor {
-	margin: 1em 0;
-	background-color: rgba(255,255,255, 1);
-	padding: 1em;
-}
-aside.related h3 {
-	    margin: 1em 0 .5em;
-}
-aside.related .rating {
-	color:rgba(230, 195, 0, 1)
-}
-aside.related .result.sponsor .logo{
-text-align: center;}
+aside.related h2 { font-family: Adelle Sans, Arial, sans-serif; font-weight: 100; }
+aside.related h3 { margin: 1em 0 .5em; }
+aside.related li { list-style: none; margin-bottom: .5em; display: inline; }
+aside.related .rating { color: rgba(230, 195, 0, 1) }
+aside.related .result.sponsor { margin: 1em 0; background-color: rgba(255,255,255, 1); padding: 1em; }
+aside.related .result.sponsor .logo { text-align: center; }

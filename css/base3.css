@@ -1,19 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-* {
-	margin: 0;
-	padding: 0;
-}
-html, body, h1, h2, h3, h4, h6, div, ul, li, a, input, button {
-	font-family: Adelle Sans, Arial, sans-serif;
-	font-size: 14px;
-}
-h1, h2 {
-	font-family: Bitter, Cambria, sans-serif;
-}
-li {list-style: none;
-	margin-bottom: .5em;}
-	
-p {line-height: 2em;
-    margin-bottom: 1em;}
-
+* { margin: 0; padding: 0; }
+html, body, h1, h2, h3, h4, h6, div, ul, li, a, input, button { font-family: Adelle Sans, Arial, sans-serif; font-size: 14px; }
+h1, h2 { font-family: Bitter, Cambria, sans-serif; }
+li { list-style: none; margin-bottom: .5em; }
+p { line-height: 2em; margin-bottom: 1em; }

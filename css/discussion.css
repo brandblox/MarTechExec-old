@@ -1,172 +1,39 @@
 @charset "utf-8";
 /* Styles and overrides for the full discussion page */
 
-#discussion .discuss .top {
-	/*margin-top: 1em;*/
-}
-#discussion .discussion-bar {
-	background-color: rgba(232,31,99,0.12);
-	margin: -14px -21px 20px -21px;
-	padding: 8px 12px;
-	display: flex;
-	flex-direction: row;
-}
-#discussion .discussion-bar .upvote {
-	order: 1;
-	flex: 1 1 auto;
-	align-self: flex-start;
-}
-#discussion .discussion-bar .spinoff {
-	order: 2;
-	flex: 2 1 auto;
-	align-self: flex-start;
-}
-#discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags, #discussion .sticky .upvote {
-	display: auto;
-  	margin-top: .5em;
-}
-#discussion .sticky .related {
-	visibility: hidden;
-}
-#discussion section.discuss {
-  	margin-top: 2.2em;
-}
-#discussion .discuss h1 {
-	font-size: 2em;
-  	margin-top: .3em;
-}
-#discussion .discuss .meta {
-	display: flex;
-	flex-direction: row;
-  	margin-top: 2.5em;
-}
-
-#discussion .reply .meta {
-  	margin-top: 0.75em;
-}
-#discussion .discuss .author {
-	font-size: 0.75em;
-}
-#discussion .discuss .date {
-	font-size: 0.75em;
-	display: block;
-}
-#discussion .discuss .sticky .category, .sticky .upvote {
-	display: block;
-}
-
-#discussion .discuss-head {
-	display: flex;
-	flex-direction: column;
-  	justify-content: space-between; 
-}
-#discussion .discuss-head .upvote i {
-  font-size: 1.7em;
-}
-#discussion .discuss-head .upvote span {
- font-size: 1.2em;
-}
-
-#discussion .discuss.reply {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-#discussion .discuss.reply.one {
-	margin-top: 2em;
-}
-
-#discussion .discuss.reply.two {
-	padding-left: 5em;
-}
-
-#discussion .discuss.reply.three {
-	padding-left: 10em;
-}
-
-#discussion .discuss .tags {
-  display: block;
-  margin-top: 1em;
-}
-
-#discussion .discuss .source {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1em;
-}
-
-#discussion .discuss .source .mte-bug {
-  width: 30px;
-  height: 30px;
-  margin-right: .5em;
-}
-
-#discussion .discuss .source .article-link {
-  display: flex;
-  align-self: center;
-}
-
-#discussion .discuss .top h6 {
-  margin-top: .5em;
-}
-
-#discussion .discuss .footer .upvote {
-  margin-top: 1em;
-}
-
-#discussion .reply footer {
-	display: flex;
-	flex-direction: row;
-}
-
-#discussion .reply footer input {
-	flex: 1;
-	height: 1.9em;
-	margin-right: 0.8em;
-	font-style: italic;
-}
-
-#discussion .discuss .social-actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  margin-top: 2em;
-}
-
-#discussion .discuss .social-actions .social-share ul {
-  list-style: none;
-  margin: 0 2px 0 0;
-}
-
-#discussion .discuss .social-actions .social-share ul li {
-  background-color: blue;
-  height: 32px;
-  width: 32px;
-  border-radius: 32px;
-  display: inline-block;
-}
-
-#discussion .reply p {
-	border-left: 4px solid rgba(225,225,225,1);
-}
-
-#discussion .discuss.new-comment {
-	display: flex;
-	flex-direction: column;
-}
-
-#discussion .discuss.new-comment div.input {
-	display: flex;
-	flex-direction: row;
-}
-
-#discussion .discuss.new-comment textarea {
-	flex: 1;
-	height: 10em;
-}
-
-#discussion .discuss.new-comment button {
-	align-self: flex-end;
-}
+#discussion .discuss .top { /*margin-top: 1em;*/}
+#discussion .discussion-bar { background-color: rgba(232,31,99,0.12); margin: -14px -21px 20px -21px; padding: 8px 12px; display: flex; flex-direction: row; }
+#discussion .discussion-bar .upvote { order: 1; flex: 1 1 auto; align-self: flex-start; }
+#discussion .discussion-bar .spinoff { order: 2; flex: 2 1 auto; align-self: flex-start; }
+#discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags, #discussion .sticky .upvote { display: auto; margin-top: .5em; }
+#discussion .sticky .related { visibility: hidden; }
+#discussion section.discuss { margin-top: 2.2em; }
+#discussion .discuss h1 { font-size: 2em; margin-top: .3em; }
+#discussion .discuss .meta { display: flex; flex-direction: row; margin-top: 2.5em; }
+#discussion .reply .meta { margin-top: 0.75em; }
+#discussion .discuss .author { font-size: 0.75em; }
+#discussion .discuss .date { font-size: 0.75em; display: block; }
+#discussion .discuss .sticky .category, .sticky .upvote { display: block; }
+#discussion .discuss-head { display: flex; flex-direction: column; justify-content: space-between; }
+#discussion .discuss-head .upvote i { font-size: 1.7em; }
+#discussion .discuss-head .upvote span { font-size: 1.2em; }
+#discussion .discuss.reply { margin-top: 0; margin-bottom: 0; }
+#discussion .discuss.reply.one { margin-top: 2em; }
+#discussion .discuss.reply.two { padding-left: 5em; }
+#discussion .discuss.reply.three { padding-left: 10em; }
+#discussion .discuss .tags { display: block; margin-top: 1em; }
+#discussion .discuss .source { display: flex; flex-direction: row; margin-bottom: 1em; }
+#discussion .discuss .source .mte-bug { width: 30px; height: 30px; margin-right: .5em; }
+#discussion .discuss .source .article-link { display: flex; align-self: center; }
+#discussion .discuss .top h6 { margin-top: .5em; }
+#discussion .discuss .footer .upvote { margin-top: 1em; }
+#discussion .reply footer { display: flex; flex-direction: row; }
+#discussion .reply footer input { flex: 1; height: 1.9em; margin-right: 0.8em; font-style: italic; }
+#discussion .discuss .social-actions { display: flex; flex-direction: row; justify-content: space-between; width: 100%; align-items: center; margin-top: 2em; }
+#discussion .discuss .social-actions .social-share ul { list-style: none; margin: 0 2px 0 0; }
+#discussion .discuss .social-actions .social-share ul li { background-color: blue; height: 32px; width: 32px; border-radius: 32px; display: inline-block; }
+#discussion .reply p { border-left: 4px solid rgba(225,225,225,1); }
+#discussion .discuss.new-comment { display: flex; flex-direction: column; }
+#discussion .discuss.new-comment div.input { display: flex; flex-direction: row; }
+#discussion .discuss.new-comment textarea { flex: 1; height: 10em; }
+#discussion .discuss.new-comment button { align-self: flex-end; }
