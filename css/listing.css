@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS styles for listing page */
 
+
+/* Layout */
 .listing .container {
 	display: flex;
 	flex-direction: row;
@@ -19,34 +21,6 @@ font-size: 1.125em;}
 	justify-content: center;
 	align-content: center;
 	align-items: stretch;
-}
-
-#listing .categories h3 {
-	display: inline-block;
-	font-size: inherit;
-}
-
-#listing .categories ul {
-	display: inline-block;
-	margin-right: 2em;
-}
-
-#listing .categories ul li {
-	display: inline-block;
-}
-
-.listing .product h4 {
-	font-family: Bitter, Cambria, sans-serif;
-	font-size: 1.4em;
-	margin-bottom: 0.8em;
-}
-
-.listing .product {
-	margin-bottom: 2em;
-}
-
-.listing .product .description {
-	line-height: 1.6em;
 }
 
 .listing article {
@@ -103,6 +77,62 @@ font-size: 1.125em;}
 	align-content: flex-start;
 	align-items: flex-start;
 }
+
+/* Company info styling */
+.listing-info {
+	margin-bottom: 1.2em;
+}
+
+.listing-info .rating {
+	color:rgba(230, 195, 0, 1);
+	font-size: 1.8em;
+	display: inline-block;
+}
+.listing-info .review {
+	display:inline-block;
+	margin-left: 0.6em;
+	font-style: italic;
+}
+.listing-info h1 {
+	font-size: 2em;
+	margin-right: 1em;
+	display: inline-block;
+}
+.listing-info .social-links, .listing-info .social-links li {
+	display: inline-block;
+}
+
+#listing .categories h3 {
+	display: inline-block;
+	font-size: inherit;
+}
+
+#listing .categories ul {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+#listing .categories ul li {
+	display: inline-block;
+}
+
+
+/* Listing Products */
+.listing .product h4 {
+	font-family: Bitter, Cambria, sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 0.8em;
+}
+
+.listing .product {
+	margin-bottom: 2em;
+}
+
+.listing .product .description {
+	line-height: 1.6em;
+}
+
+
 .listing .status {
 	order: 1;
 	flex: 0 0 auto;
@@ -284,25 +314,5 @@ order: 3;
 #listing .actions button {
 	margin-bottom: 1em;
 }
-.listing-info {
-	margin-bottom: 1.2em;
-}
 
-.listing-info .rating {
-	color:rgba(230, 195, 0, 1);
-	font-size: 1.8em;
-	display: inline-block;
-}
-.listing-info .review {
-	display:inline-block;
-	margin-left: 0.6em;
-	font-style: italic;
-}
-.listing-info h1 {
-	font-size: 2em;
-	margin-right: 1em;
-	display: inline-block;
-}
-.listing-info .social-links, .listing-info .social-links li {
-	display: inline-block;
-}
+
