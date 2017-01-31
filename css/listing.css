@@ -197,3 +197,30 @@ order: 3;
     flex: 1 0 auto;
     text-align: right;
 }
+
+#listing .listing .images {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+#listing .listing .image-assets {
+ flex-direction: row;
+ display: flex; 
+}
+
+#listing .listing .image-assets li {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #38a3dd;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  margin-bottom: 3em;
+}
+
+#listing .listing .video {
+ display: flex;
+ margin-bottom: 3em;
+ margin-top: 3em;
+ justify-content: center; 
+}
