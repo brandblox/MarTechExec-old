@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS styles for listing page */
+#listing .banner{    
+    order: 2;
+		background-image: url(../images/advertising_search-8_10p.png);
+		background-repeat:repeat; 
+		background-color: rgba(232, 31, 99, 1);
+}
+#listing .banner h3  { 
+margin-top: 3em;
+}
+#listing .banner h3 a {    
+    color: #fff;
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+#listing .banner h1 {    
+display: block;
+    font-size: 2em;
+    color: rgba(255,255,255,1);
+    clear: both;
+    font-weight: 100;
+}
+.banner  {
+
+    }
+.banner .author a {
+color: rgba(255,255,255,1);
+    }		
+		
+.banner .avatar {		
+		float: left;
+    border-radius: 4em;
+    width: 4em;
+    height: 4em;
+    margin-right: .5em;}
+.banner .block {
+
+    }
+
+.banner .headline {
+
+
+    }
+		
+.banner .meta {
+		margin: 2em 0;
+    color: rgba(255,255,255,1);
+    line-height: 1.3em;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: Bitter, Cambria, sans-serif;
+    }
+	.banner .date {
+
+    }	
+#listing .banner .tags, #listing .listing .tags {
+font-size: 1.2em;
+    font-family: Adelle Sans, Arial, sans-serif;
+}
+
+.banner .tag {
+letter-spacing: .025em;
+}		
+
+.listing .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+.listing p{
+font-size: 1.125em;}
+	
+.listing section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: stretch;
+}
+
+.listing article {
+	order: 2;
+	flex: 1 0 auto;
+	align-self: auto;
+	flex-basis: 1em;
+}
+.listing article h2 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+.listing header {
+	order: 1;
+	flex: 1 1 auto;
+	align-self: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: flex-start;
+}
+.listing .top {
+	order: 1;
+	flex: 2 1 auto;
+	align-self: flex-start;
+}
+.listing .indicators {
+	order: 2;
+	flex: 1 1 auto;
+}
+.listing .indicators.end {
+margin: 2em 0 0;
+}
+.indicators.end button.bookmark
+{margin-bottom: 0;
+}
+
+.listing .content {
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+	line-height: 1.5em;
+}
+.listing footer {
+	order: 3;
+	flex: 1 1 auto;
+	align-self: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+.listing .status {
+	order: 1;
+	flex: 0 0 auto;
+	align-self: stretch;
+}
+.listing .tags, .asset {
+	order: 2;
+	flex: 0 0 auto;
+	align-self: stretch;
+}
+.listing .status {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: space-between;
+	align-items: center;
+}
+
+.listing {
+	margin-right: 3em;
+	margin-top: 2.2em;
+}
+
+.listing h3.solutions {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: .6em;
+}
+.listing .related {
+	margin-top: 1em;
+}
+.listing .listings {
+	margin-bottom: 1em;
+}
+.listing .asset img {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-right: 2em;
+}
+.listing .cover {
+	background-color: #efefef;
+	margin: 1em auto;
+	padding: 2em;
+	display: block;
+}
+.listing .teaser p {
+	margin: 1em 0;
+}
+.listing .teaser h2 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#listing .discussions {
+order: 3;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#listing .discussions .discuss {
+	margin-left: 0;}
+
+#listing .discussions .discuss .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+
+#listing .discussions .discuss aside.upvote {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+#listing .discussions .discuss header {
+    order: 2;
+    flex: 1 1 auto;
+    align-self: auto;
+    }
+
+#listing .discussions .discuss footer {
+    order: 3;
+    flex: 1 1 auto;
+    align-self: auto;
+    }
+#listing .discussions .discuss .comments {
+    order: 2;
+    flex: 1 0 auto;
+    text-align: right;
+}
