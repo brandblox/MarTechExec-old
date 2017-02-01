@@ -27,7 +27,7 @@ button.join { background-color: rgba(255, 88, 6, 1); }
 button.login { background-color: none; } 
 button.tag { background: rgba(56, 163, 221, 1); color: rgba(255,255,255,1); }
 
-button.start-discuss, button.submit-comment { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
+button.start-discuss, button.submit-comment, button.send-message, button.make-call { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
 
 button.asset { background-color: rgba(232, 31, 99, 1); color: rgba(255, 255, 255, 1); }
 
