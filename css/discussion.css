@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* Styles and overrides for the full discussion page */
 
-#discussion .discuss .top { /*margin-top: 1em;*/}
-#discussion .discussion-bar { background-color: rgba(232,31,99,0.12); margin: -14px -21px 20px -21px; padding: 8px 12px; display: flex; flex-direction: row; }
+#discussion .discuss .top { /*margin-top: 1em;*/
+}
+#discussion .discussion-bar { background-color: rgba(56,163,221,.12); margin: -14px -21px 20px -21px; padding: 8px 12px; display: flex; flex-direction: row; }
 #discussion .discussion-bar .upvote { order: 1; flex: 1 1 auto; align-self: flex-start; }
 #discussion .discussion-bar .spinoff { order: 2; flex: 2 1 auto; align-self: flex-start; }
 #discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags, #discussion .sticky .upvote { display: auto; margin-top: .5em; }

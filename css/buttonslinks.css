@@ -12,8 +12,11 @@ button.tag { border-radius: 2px; padding: .4em .8em; font-size: .8em; text-trans
 button.upvote { width: 3em; font-size: 1.2em; border: 1px solid rgba(255,255,255,0); color: rgba(56, 163, 221, 1); background: rgba(255,255,255,0); }
 button.upvote:hover { border-radius: 4px; border: 1px solid rgba(56, 163, 221, 1); cursor: pointer; }
 
-.actions button .fa-bookmark-o { margin-right: .3em; }
-.actions button.bookmark { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,0); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
+
+.actions button.bookmark, .actions button.upvote { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,0); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
+.actions button .fa-bookmark-o{ margin-right: .3em; }
+.actions button .fa-thumbs-o-up{ margin-right: .3em; }
+.actions button.upvote{ width: 7em; margin-right: .3em; }
 
 /* This should be large */
 button.large, button.start-discuss { font-size: 1.2em; display: block; font-weight: 300; border: 0px; padding: 1em 2em; }
