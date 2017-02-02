@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Article</title>
+<title>Discussion</title>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/base3.css" >
 <link rel="stylesheet" type="text/css" href="css/framework.css">
@@ -33,28 +33,37 @@
 </header>
 <main class="block">
   <div class="wrapper">
-    <section class="article">
+  	<section class="discuss sticky ">
       <div class="container">
         <article>
           <header class="spinning">
             <div class="actions">
               <button class="upvote"><i class="fa fa-thumbs-o-up"></i>Upvote</button>
             </div>
-            <div class="actions">
+            <div class="actions spin">
               <h4>Spinning off</h4>
-              
+              <a href="#">How to Stop Viewers from Skipping Your Ad</a>
             </div>
           </header>
+        </article>
+      </div>
+
+    </section>
+    <section class="discuss sticky">
+      <div class="container">
+        <article>
+        <header>
           <div class="top">
-              <div class="category"><a href="#">Advertising & Promotion</a></div>
-              <h1>title</h1>
-              <div class="meta">
-                <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
-                <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
-                <i class="fa fa-star badge"></i>
-                <div class="date">on 01.16.2017</div>
-              </div>
+            <div class="category"><a href="#">Advertising & Promotion</a></div>
+            <h1>title</h1>
+            <div class="meta">
+              <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
+              <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
+              <i class="fa fa-star badge"></i>
+              <div class="date">on 01.16.2017</div>
             </div>
+          </div>
+        </header>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mi ac ante lacinia pharetra. Donec egestas lorem a urna convallis sagittis. Nunc justo ex, tincidunt non posuere ac, convallis vel ligula. Vivamus convallis efficitur viverra. Vestibulum vel fringilla purus. Quisque vestibulum ipsum sapien, et dignissim urna suscipit et. Fusce vel fringilla lacus, in facilisis libero. Cras luctus tellus vel nisi facilisis, nec efficitur urna vehicula. Quisque gravida id sapien eu eleifend. In bibendum placerat egestas. Duis aliquam porttitor ante, varius finibus leo pellentesque faucibus. Vivamus malesuada elit vitae mi gravida lacinia.</p>
             <div>
@@ -70,43 +79,93 @@
           </footer>
         </article>
       </div>
-       <div class="actions end">
-              <button class="upvote"><i class="fa fa-thumbs-o-up"></i>Upvote</button>
-            </div>
+      <div class="actions end">
+        <button class="upvote"><i class="fa fa-thumbs-o-up"></i>Upvote</button>
+      </div>
     </section>
-    <section class="discussions block-full-size">
-    <div class="next-steps">
-    <h2>Read opinions and discussions about this article, or</h2>
-     <button class="start-discuss">Start a New Discussion</button>
-    </div>
-    <section class="discuss">
+    <section class="discuss new-comment">
+      <h3>Leave a comment</h3>
+      <div class="add-comment">
+        <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
+        <textarea></textarea>
+      </div>
+      <button class="submit-comment">Submit</button>
+    </section>
+    <section class="discuss reply level1">
       <div class="container">
         <aside class="upvote">
           <button class="upvote" href="#"><i class="fa fa-thumbs-o-up"></i> <span>45</span> </button>
         </aside>
-       
+        <article>
           <header>
             <div class="top">
-              <h1>title</h1>
               <div class="meta">
                 <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
-                <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
-                <i class="fa fa-star badge"></i>
-                <div class="date">on 01.16.2017</div>
+                <div>
+                  <div class="author"><a href="#">Ryman Stringer</a> </div>
+                  <div class="date">on 01.16.2017</div>
+                </div>
               </div>
             </div>
           </header>
+          <p> Cras consequat ipsum quis libero cursus congue. Aliquam ut porta ante, semper rhoncus urna. In dignissim nisi ac lorem egestas, nec egestas enim dictum. Donec sed porta dui. Praesent eget velit ac sem posuere finibus. Phasellus risus nulla, feugiat quis enim in, tincidunt elementum sapien. Phasellus placerat lacinia bibendum. Sed risus dui, posuere et odio in, dictum mollis sem. Morbi tellus ligula, porttitor ac tristique ut, dapibus id purus. Morbi sed metus bibendum, feugiat odio nec, sollicitudin massa. Aliquam sit amet turpis id mi consequat mattis. Praesent eu sodales dui. </p>
           <footer>
-            <div class="status">
-Add comment box here.
-            </div>
+            <button class="reply">Reply</button>
           </footer>
- 
+          <section class="discuss reply level2">
+            <div class="container">
+              <aside class="upvote">
+                <button class="upvote" href="#"><i class="fa fa-thumbs-o-up"></i> <span>6</span> </button>
+              </aside>
+              <article>
+                <header>
+                  <div class="top">
+                    <div class="meta">
+                      <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
+                      <div>
+                        <div class="author"><a href="#">Ryman Stringer</a> </div>
+                        <div class="date">on 01.16.2017</div>
+                      </div>
+                    </div>
+                  </div>
+                </header>
+                <p> Cras consequat ipsum quis libero cursus congue. Aliquam ut porta ante, semper rhoncus urna. In dignissim nisi ac lorem egestas, nec egestas enim dictum. Donec sed porta dui. Praesent eget velit ac sem posuere finibus. Phasellus risus nulla, feugiat quis enim in, tincidunt elementum sapien. Phasellus placerat lacinia bibendum. Sed risus dui, posuere et odio in, dictum mollis sem. Morbi tellus ligula, porttitor ac tristique ut, dapibus id purus. Morbi sed metus bibendum, feugiat odio nec, sollicitudin massa. Aliquam sit amet turpis id mi consequat mattis. Praesent eu sodales dui. </p>
+                <footer>
+                  <button class="reply">Reply</button>
+                </footer>
+                <section class="discuss reply level3">
+              <div class="container">
+                <aside class="upvote">
+                  <button class="upvote" href="#"><i class="fa fa-thumbs-o-up"></i> <span>2</span> </button>
+                </aside>
+                <article>
+                  <header>
+                    <div class="top">
+                      <div class="meta">
+                        <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
+                        <div>
+                          <div class="author"><a href="#">Ryman Stringer</a> </div>
+                          <div class="date">on 01.16.2017</div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                  <p> Cras consequat ipsum quis libero cursus congue. Aliquam ut porta ante, semper rhoncus urna. In dignissim nisi ac lorem egestas, nec egestas enim dictum. Donec sed porta dui. Praesent eget velit ac sem posuere finibus. Phasellus risus nulla, feugiat quis enim in, tincidunt elementum sapien. Phasellus placerat lacinia bibendum. Sed risus dui, posuere et odio in, dictum mollis sem. Morbi tellus ligula, porttitor ac tristique ut, dapibus id purus. Morbi sed metus bibendum, feugiat odio nec, sollicitudin massa. Aliquam sit amet turpis id mi consequat mattis. Praesent eu sodales dui. </p>
+                  <footer>
+                    <div class="avatar" style="background: url(images/lana-tuned-small.jpg) 50% 50%;"></div>
+                    <input type="text" placeholder="Begin typing to reply"/>
+                    <button class="reply">Reply</button>
+                  </footer>
+                </article>
+              </div>
+            </section>
+              </article>
+            </div>
+            
+          </section>
+        </article>
       </div>
     </section>
-    </section>
- 
-    
   </div>
   <aside class="related">
     <header>
@@ -233,7 +292,6 @@ Add comment box here.
       </div>
     </div>
   </aside>
-  
 </main>
 <footer class="page">
   footer
