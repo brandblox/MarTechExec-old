@@ -71,12 +71,6 @@
   flex-direction: row;
 }
 
-#profile .about label {
-  
-}
-#profile .about label input[type=text]{
-  
-}
 
 #profile .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 #profile .rating{margin-right:.8em;color:rgba(230,195,0,1);font-size:1.5em}
