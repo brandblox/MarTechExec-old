@@ -38,4 +38,4 @@ button.discuss-upvote { padding: .4em .8em; font-size: 1em; border: 1px solid rg
 
 /* Tabs */
 ul.tab-group { margin: 0; padding: 0; list-style: none; }
-ul.tab-group li.tab { display: inline-block; text-align: center;}
+ul.tab-group li.tab { margin: 0; padding: 0; display: inline-block; text-align: center;}
