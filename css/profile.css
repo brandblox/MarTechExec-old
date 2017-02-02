@@ -71,6 +71,41 @@
   flex-direction: row;
 }
 
+#profile .basic {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+#profile .basic .edit-photos {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+}
+
+#profile .basic .edit-basic {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#profile .basic .edit-basic textarea {
+  height: 200px;
+  width: 100%;
+}
+
+#profile .basic .avatar {
+  height: 7em;
+  width: 7em;
+  border-radius: 7em;
+}
+
+#profile .basic .background {
+  height: 7em;
+  width: 7em;
+}
 
 #profile .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 #profile .rating{margin-right:.8em;color:rgba(230,195,0,1);font-size:1.5em}

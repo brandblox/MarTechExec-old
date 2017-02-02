@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/menus.css" >
 <link rel="stylesheet" type="text/css" href="css/aside-related.css" >
 <link rel="stylesheet" type="text/css" href="css/discuss2.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
 <link rel="stylesheet" type="text/css" href="css/old/filter.css">
 <link rel="stylesheet" type="text/css" href="css/page-header.css">
 <link rel="stylesheet" type="text/css" href="css/pages.css">
@@ -32,9 +33,8 @@
       </div>
     </header>
     <div class="banner">
-      <div class="block">
-
-
+      <main class="block">
+        
         <!-- Profile Banner Info -->
         <div class="information">
           <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
@@ -60,7 +60,26 @@
     <main class="block">
       <div class="wrapper">
         <section class="about basic">
-          <div class="excerpt">Duis justo ipsum, blandit ac orci sed, tempus varius dolor. Etiam aliquet, arcu ut accumsan lacinia, diam nisi posuere neque, sed hendrerit massa neque et urna. Curabitur ut lacus sit amet turpis dapibus blandit ac vel odio. Suspendisse commodo eleifend ipsum vitae viverra. Cras non urna ut eros... <a href="#" class="read-more">Read more</a> </div>
+          <div class="edit-photos">
+            <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
+            <button>Change photo</button>
+            <div class="background" style="background: url('images/profile_bg.jpg') 50% 50%;"></div>
+            <button>Change background</button>
+          </div>
+          <div class="edit-basic">
+            <label for="other-url">
+              Display Name
+              <input type="text" name="display-name" value="www.linkedin.com/jonsnow" />
+            </label>
+            <label for="about-me">
+              About Me
+              <textarea name="about-me">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ligula vehicula ligula mollis luctus. Praesent quam est, auctor quis maximus id, sodales vel dui. Cras ut diam lacinia, ornare leo ac, posuere ex. Etiam mauris enim, malesuada id volutpat eu, sodales ut nunc. Maecenas non mollis mi. Aliquam efficitur in quam bibendum elementum. Cras dui lacus, pretium a orci ac, commodo maximus purus. Nam eu lorem convallis, laoreet sapien sed, porta tellus. Proin ac vehicula lectus, eu varius eros. Donec id enim ut mauris tincidunt maximus quis non orci. Duis non quam id arcu pellentesque vulputate. Aenean et pretium arcu.
+
+                Vestibulum suscipit felis lacus, id cursus est tempor in. Ut at elit eu risus ultricies accumsan. Praesent a condimentum ipsum. Mauris et tellus faucibus, congue libero venenatis, elementum libero. Suspendisse convallis nisi lectus, nec convallis dolor suscipit sed. Vestibulum pellentesque lorem vitae arcu congue accumsan. Integer vel urna felis. Nullam vel pharetra neque. Nunc eget ornare tortor, sed volutpat ex. Vestibulum vel sapien lacus. Integer congue in neque eget dapibus.
+              </textarea>
+            </label>
+          </div>
         </section>
         
         <section class="about site-details">
