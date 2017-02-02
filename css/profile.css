@@ -3,8 +3,11 @@
 
 #profile .banner {
   order: 2;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 #profile .tab-group {
   
@@ -22,4 +25,29 @@
 
 #profile .tab-group .tab:hover {
   background-color: rgba(255,255,255,0.2);
+  display: flex;
+  flex-order: column;
+  
+}
+
+/*#profile .banner img {
+  width: 960px;
+  height: 450px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  z-index: -1;
+}*/
+
+#profile .banner .information {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+#profile .banner .information ul {
+  display: flex;
+  flex-direction: row;
 }
