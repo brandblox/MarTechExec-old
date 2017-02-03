@@ -14,24 +14,25 @@
 
 /* Activity Tab */
 #profile .container{display:flex;flex-direction:row;justify-content:flex-start;align-items:flex-start;align-content:flex-start}
-#profile .edit-photos{display:flex;flex-direction:column;flex:0 1 auto;margin:0 1em 0 0}
-#profile .edit-basic{display:flex;flex-direction:column;flex:1 1 auto}
-#profile .edit-basic textarea{height:16em}
-#profile .avatar{height:7em;width:7em;border-radius:7em}
 #profile .background{height:7em;width:7em}
 label{margin:.2em 0}
 #profile .preferences .tab-container{padding-top:3em;background-color:rgba(56,163,221,1)}
 #profile .save-profile{align-self:center;padding:.8em 2em;margin:2em}
-#profile .input,#profile .site-details .input,#profile textarea{flex:1}
+#profile .input, #profile .site-details .input,#profile textarea{flex:1}
 #profile .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 #profile .rating{margin-right:.8em;color:rgba(230,195,0,1);font-size:1.5em}
 #profile .review-header h4{margin-right:1em}
 #profile .verified{background-color:rgba(56,163,221,1);color:rgba(255,255,255,1);padding:.4em .8em;font-size:.8em;font-weight:300;height:1em;margin-left:1em}
 
 /* About Tab */
+#profile .about { width: 960px; }
 #profile .about.site-details{display:flex;justify-content:center;flex-direction:column}
 #profile .about.preferences{display:flex;justify-content:center;flex-direction:column}
 #profile div.password{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin-top:2em}
+#profile .edit-photos{display:flex;flex-direction:column;flex:0 1 auto;margin:0 1em 0 0}
+#profile .edit-basic{display:flex;flex-direction:column;flex:1 1 auto}
+#profile .edit-basic textarea{height:18em}
+#profile .edit-photos .avatar{height:7em;width:7em;border-radius:7em}
 #profile .urls{display:flex;flex-direction:column}
 #profile .urls .input-group{margin-bottom:2em;display:flex;flex-direction:column}
 #profile .validation-input{margin-bottom:2em}

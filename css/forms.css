@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* Text Input */
-label{display:block;margin:.6em 1em}
+label{display:block;margin:.6em 0em}
 input[type=text]{border:1px solid rgba(56,163,221,1);color:rgba(56,163,221,1);padding:.8em 1em;display:block}
 textarea{border:1px solid rgba(56,163,221,1);color:inherit;padding:.8em 1em;display:block}
 .validation-input{display:flex;flex-direction:row}
