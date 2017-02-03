@@ -30,26 +30,6 @@ textarea{
   padding: 0.8em 1.4em;
 }
 
-/*input[type=checkbox] {
-  height: 1.4em;
-  width: 1.4em;
-  background: transparent;
-  border: 1px solid rgba(56, 163, 221, 1);
-}
-.input-group.checkbox {
-  display: flex;
-  flex-direction: row;
-}
-
-.input-group.checkbox input {
-  flex: 0 1 auto;
-}
-.input-group.checkbox label {
-  flex: 2 1 auto;
-  margin-left: 1em;
-}*/
-
-
 input[type="checkbox"] {
     display:none;
 }
