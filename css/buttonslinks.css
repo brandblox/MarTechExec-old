@@ -13,7 +13,7 @@ button.upvote { width: 3em; font-size: 1.2em; border: 1px solid rgba(255,255,255
 button.upvote:hover { border-radius: 4px; border: 1px solid rgba(56, 163, 221, 1); cursor: pointer; }
 
 
-.actions button.bookmark, .actions button.upvote { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,0); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
+.actions button.bookmark, .actions button.upvote, button.change-photo, button.change-background { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,0); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
 .actions button .fa-bookmark-o{ margin-right: .3em; }
 .actions button .fa-thumbs-o-up{ margin-right: .3em; }
 .actions button.upvote{ width: 7em; margin-right: .3em; }
@@ -27,7 +27,7 @@ button.join { background-color: rgba(255, 88, 6, 1); }
 button.login { background-color: none; } 
 button.tag { background: rgba(56, 163, 221, 1); color: rgba(255,255,255,1); }
 
-button.start-discuss, button.submit-comment, button.send-message, button.make-call { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
+button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
 
 button.asset { background-color: rgba(232, 31, 99, 1); color: rgba(255, 255, 255, 1); }
 
