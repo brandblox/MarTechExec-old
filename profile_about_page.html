@@ -59,71 +59,98 @@
     
     <main class="block">
       <div class="wrapper">
-        <section class="about basic">
-          <div class="edit-photos">
-            <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
-            <button>Change photo</button>
-            <div class="background" style="background: url('images/profile_bg.jpg') 50% 50%;"></div>
-            <button>Change background</button>
-          </div>
-          <div class="edit-basic">
-            <label for="other-url">
-              Display Name
+        <section class="about">
+          <div class="container">
+            <div class="edit-photos">
+              <div class="image-select-group">
+                <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
+                <button>Change photo</button>
+              </div>
+              <div class="image-select-group">
+                <div class="background" style="background: url('images/profile_bg.jpg') 50% 50%;"></div>
+                <button>Change background</button>
+              </div>
+            </div>
+            <div class="edit-basic">
+              <label for="display-name">Display Name</label>
               <input type="text" name="display-name" value="www.linkedin.com/jonsnow" />
-            </label>
-            <label for="about-me">
-              About Me
-              <textarea name="about-me">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ligula vehicula ligula mollis luctus. Praesent quam est, auctor quis maximus id, sodales vel dui. Cras ut diam lacinia, ornare leo ac, posuere ex. Etiam mauris enim, malesuada id volutpat eu, sodales ut nunc. Maecenas non mollis mi. Aliquam efficitur in quam bibendum elementum. Cras dui lacus, pretium a orci ac, commodo maximus purus. Nam eu lorem convallis, laoreet sapien sed, porta tellus. Proin ac vehicula lectus, eu varius eros. Donec id enim ut mauris tincidunt maximus quis non orci. Duis non quam id arcu pellentesque vulputate. Aenean et pretium arcu.
 
-                Vestibulum suscipit felis lacus, id cursus est tempor in. Ut at elit eu risus ultricies accumsan. Praesent a condimentum ipsum. Mauris et tellus faucibus, congue libero venenatis, elementum libero. Suspendisse convallis nisi lectus, nec convallis dolor suscipit sed. Vestibulum pellentesque lorem vitae arcu congue accumsan. Integer vel urna felis. Nullam vel pharetra neque. Nunc eget ornare tortor, sed volutpat ex. Vestibulum vel sapien lacus. Integer congue in neque eget dapibus.
-              </textarea>
-            </label>
+              <label for="about-me">About Me</label>
+                <textarea name="about-me">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ligula vehicula ligula mollis luctus. Praesent quam est, auctor quis maximus id, sodales vel dui. Cras ut diam lacinia, ornare leo ac, posuere ex. Etiam mauris enim, malesuada id volutpat eu, sodales ut nunc. Maecenas non mollis mi. Aliquam efficitur in quam bibendum elementum. Cras dui lacus, pretium a orci ac, commodo maximus purus. Nam eu lorem convallis, laoreet sapien sed, porta tellus. Proin ac vehicula lectus, eu varius eros. Donec id enim ut mauris tincidunt maximus quis non orci. Duis non quam id arcu pellentesque vulputate. Aenean et pretium arcu.
+
+                  Vestibulum suscipit felis lacus, id cursus est tempor in. Ut at elit eu risus ultricies accumsan. Praesent a condimentum ipsum. Mauris et tellus faucibus, congue libero venenatis, elementum libero. Suspendisse convallis nisi lectus, nec convallis dolor suscipit sed. Vestibulum pellentesque lorem vitae arcu congue accumsan. Integer vel urna felis. Nullam vel pharetra neque. Nunc eget ornare tortor, sed volutpat ex. Vestibulum vel sapien lacus. Integer congue in neque eget dapibus.
+                </textarea>
+            </div>
           </div>
         </section>
         
         <section class="about site-details">
         <div class="urls">
           
-          <label for="martechexec-url">
-            MarTechExec URL
-            <input type="text" name="martechexec-url" value="www.martechexec.com/jonsnow" />
-          </label>
-         
-          <label for="other-url">
-            Other URL
-            <input type="text" name="other-url" value="www.linkedin.com/jonsnow" />
-          </label>
           
-           <label for="email-address">
-            Email Address
+          <label for="martechexec-url">MarTechExec URL</label>
+          <div class="validation-input">
+            <input type="text" name="martechexec-url" value="www.martechexec.com/jonsnow" /><div class="validation-status">Available</div>
+          </div>
+          
+            <label for="other-url">Other URL</label>
+            <input type="text" name="other-url" value="www.linkedin.com/jonsnow" />
+          
+            <label for="email-address">Email Address</label>
             <input type="text" name="email-address" value="jonsnow@email.com" />
+
+        </div>
+
+          
+        <div class="password">
+          <label for="current">Current Password</label>
+          <input type="text" name="current" value="password" />
+          
+
+          <label for="new">
+            New Password
+            <input type="text" name="new" value="password" />
           </label>
-          </div>
-          <div class="password">
-              <label for="current">
-                Current Password
-                <input type="text" name="current" value="password" />
-              </label>
-              
-              <label for="new">
-                New Password
-                <input type="text" name="new" value="password" />
-              </label>
-              
-              <label for="retype">
-                Retype New Password
-                <input type="text" name="retype" value="password" />
-              </label>
 
-        
-
-          </div>
+          <label for="retype">
+            Retype New Password
+            <input type="text" name="retype" value="password" />
+          </label>
+        </div>
             <button>Save Changes</button>
         </section>
         
         <section class="about preferences">
-          
+          <div class="tab-container">
+            <ul class="tab-group">
+              <li class="tab">Contact Information</li>
+              <li class="tab selected">Notification Preferences</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Notification Preferences</h3>
+            
+            <div class="input-group checkbox">
+              <input type="checkbox" id="chk_immediately"/>
+              <label for="chk_immediately"><span></span>Immediately</label>
+            </div>
+            
+            <div class="input-group checkbox">
+              <input type="checkbox" id="chk_daily"/>
+              <label for="chk_daily"><span></span>Daily</label>
+            </div>
+            
+            <div class="input-group checkbox">
+              <input type="checkbox" id="chk_weekly"/>
+              <label for="chk_weekly"><span></span>Weekly</label>
+            </div>
+            
+            <div class="input-group checkbox">
+              <input type="checkbox" id="chk_never"/>
+              <label for="chk_never"><span></span>Never</label>
+            </div>
+          </div>
         </section>
         
       </div>
