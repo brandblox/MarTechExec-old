@@ -1,12 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 .indicators button { padding: .4em .8em; font-size: .7em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,0); color: rgba(56, 163, 221, 1); border-radius: .4em; }
-
-/* CSS Document */
-.indicators button { border: 1px solid #ccc; background: rgba(255,255,255,0); color: rgba(0,0,0,1); }
 .indicators button.original { border: 1px solid rgba(56, 163, 221, 1); color: rgba(56, 163, 221, 1); }
 .indicators button.trending { border: 1px solid rgba(255, 88, 6, 1); color: rgba(255, 88, 6, 1); }
 .indicators button.new { border: 1px solid rgba(232, 31, 99, 1); color: rgba(232, 31, 99, 1); }
+
+
 
 
 

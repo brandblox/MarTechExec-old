@@ -1,21 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Banner section */
-#article .banner { order: 2; background-image: url(../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
-#article .banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
-#article .banner h3 { margin-top: 3em; }
-#article .banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
-#article .banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-style: italic; font-family: Bitter, Cambria, sans-serif; }
-#article .banner .author a { color: rgba(255,255,255,1); }
-#article .banner .avatar { float: left; border-radius: 4em; width: 4em; height: 4em; margin-right: .5em; }
-#article .banner .tags, #article .article .tags { font-size: 1.2em; font-family: Adelle Sans, Arial, sans-serif; }
-#article .banner .tag { letter-spacing: .025em; }
+
 
 /* Article section */
 #article .article {margin-right: 3em; margin-top: 2.2em; }
-#article .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
-#article .article p { font-size: 1.125em; }
+#article .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }#article .article p { font-size: 1.125em; }
 #article .article section { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
 #article .article article { order: 2; flex: 1 0 auto; align-self: auto; flex-basis: 1em; }
 #article .article article h2 { font-size: 1.5em; margin: 1em 0; }

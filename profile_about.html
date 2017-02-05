@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Profile-About</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/pages.css">
+<link rel="stylesheet" type="text/css" href="css/page-elements/page-elements.css">
+<link rel="stylesheet" type="text/css" href="css/sidebars/sidebars.css">
+<link rel="stylesheet" type="text/css" href="css/global/global.css">
+<!-- Apply page-specific -->
+<link rel="stylesheet" type="text/css" href="css/page-types/profile.css">
+</head>
+
+<body id="profile">
+<header class="page">
+  <div class="block">
+    <div class="logo"><img src="images/MTE_logo.svg" alt="MarTechExec"/></div>
+    <div class="search">
+      <input type="search" placeholder="I want to learn more about..." />
+      <i class="fa fa-search"></i> </div>
+    <div class="c2a"> <a class="login" href="#">Log In</a>
+      <button class="join">Join</button>
+    </div>
+  </div>
+</header>
+<div class="banner">
+  <main class="block"> 
+    
+    <!-- Profile Banner Info -->
+    <div class="information">
+      <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
+      <div class="name">
+        <h1>Firstname Lastname</h1>
+      </div>
+      <div class="company">Company name</div>
+      <ul class="social">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    
+    <!-- Tab Group -->
+    <ul class="tab-group">
+      <li class="tab">Activity</li>
+      <li class="tab selected">About</li>
+      <li class="tab">My Fans</li>
+    </ul>
+  </main>
+</div>
+<main class="block">
+  <div class="wrapper">
+    <section class="about">
+      <div class="container">
+        <div class="edit-photos">
+          <div class="image-select-group">
+            <div class="avatar" style="background: url('images/lana-tuned-small.jpg') 50% 50%;"></div>
+            <button class="change-photo">Change photo</button>
+          </div>
+          <div class="image-select-group">
+            <div class="background" style="background: url('images/profile_bg.jpg') 50% 50%;"></div>
+            <button class="change-background">Change background</button>
+          </div>
+        </div>
+        <div class="edit-basic">
+          <label for="display-name">Display Name</label>
+          <input type="text" name="display-name" value="www.linkedin.com/jonsnow" />
+          <label for="about-me">About Me</label>
+          <textarea name="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ligula vehicula ligula mollis luctus. Praesent quam est, auctor quis maximus id, sodales vel dui. Cras ut diam lacinia, ornare leo ac, posuere ex. Etiam mauris enim, malesuada id volutpat eu, sodales ut nunc. Maecenas non mollis mi. Aliquam efficitur in quam bibendum elementum. Cras dui lacus, pretium a orci ac, commodo maximus purus. Nam eu lorem convallis, laoreet sapien sed, porta tellus. Proin ac vehicula lectus, eu varius eros. Donec id enim ut mauris tincidunt maximus quis non orci. Duis non quam id arcu pellentesque vulputate. Aenean et pretium arcu.
+
+                Vestibulum suscipit felis lacus, id cursus est tempor in. Ut at elit eu risus ultricies accumsan. Praesent a condimentum ipsum. Mauris et tellus faucibus, congue libero venenatis, elementum libero. Suspendisse convallis nisi lectus, nec convallis dolor suscipit sed. Vestibulum pellentesque lorem vitae arcu congue accumsan. Integer vel urna felis. Nullam vel pharetra neque. Nunc eget ornare tortor, sed volutpat ex. Vestibulum vel sapien lacus. Integer congue in neque eget dapibus.
+                </textarea>
+        </div>
+      </div>
+    </section>
+    <section class="about site-details">
+      <div class="urls">
+        <label for="martechexec-url">MarTechExec URL</label>
+        <div class="validation-input">
+          <input type="text" name="martechexec-url" value="www.martechexec.com/jonsnow" />
+          <div class="validation-status">Available</div>
+        </div>
+        <div class="input-group">
+          <label for="other-url">Other URL</label>
+          <input type="text" name="other-url" value="www.linkedin.com/jonsnow" />
+        </div>
+        <div class="input-group">
+          <label for="email-address">Email Address</label>
+          <input type="text" name="email-address" value="jonsnow@email.com" />
+        </div>
+      </div>
+      <div class="password">
+        <label for="current">Current Password
+          <input type="text" name="current" value="password" />
+        </label>
+        <label for="new"> New Password
+          <input type="text" name="new" value="password" />
+        </label>
+        <label for="retype"> Retype New Password
+          <input type="text" name="retype" value="password" />
+        </label>
+      </div>
+      <button class="save-profile">Save Changes</button>
+    </section>
+    <section class="about preferences">
+      <div class="tab-container">
+        <ul class="tab-group">
+          <li class="tab">Contact Information</li>
+          <li class="tab selected">Notification Preferences</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Notification Preferences</h3>
+        <input type="checkbox" id="chk_immediately"/>
+        <label for="chk_immediately">
+          <span></span>
+          Immediately</label>
+        <input type="checkbox" id="chk_daily"/>
+        <label for="chk_daily">
+          <span></span>
+          Daily</label>
+        <input type="checkbox" id="chk_weekly"/>
+        <label for="chk_weekly">
+          <span></span>
+          Weekly</label>
+        <input type="checkbox" id="chk_never"/>
+        <label for="chk_never">
+          <span></span>
+          Never</label>
+      </div>
+      <button class="save-profile">Save Changes</button>
+    </section>
+  </div>
+</main>
+</body>
+</html>

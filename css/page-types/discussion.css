@@ -1,20 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-/*
-#discussion .discuss .top { margin-top: 1em;
-}
-#discussion .discussion-bar { background-color: rgba(56,163,221,.12); margin: -14px -21px 20px -21px; padding: 8px 12px; display: flex; flex-direction: row; }
-#discussion .discussion-bar .upvote { order: 1; flex: 1 1 auto; align-self: flex-start; }
-#discussion .discussion-bar .spinoff { order: 2; flex: 2 1 auto; align-self: flex-start; }
+
+/* Top */
+#discussion .discuss.sticky.reference{background:rgba(56, 163, 221, .2);}
+
+#discussion .spinning .spin {background: no-repeat url(../../images/MTE_bug.png) left; padding-left: 3em; background-size: 36px}
 
 
 
-*/
 
-#discussion .spinning .spin {background: no-repeat url(../images/MTE_bug.png) left; padding-left: 3em; background-size: 36px}
-#discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags{ display: auto; margin-top: .5em; }
+
+
 #discussion .sticky .related { visibility: hidden; }
-#discussion section.discuss { margin-top: 2.2em; }
+
+#discussion section.discuss {  }
+#discussion .content p {font-size: 1.25em;}
 #discussion .discuss h1 { font-size: 2em; margin-top: .3em; }
 #discussion .discuss .meta { display: flex; flex-direction: row; margin-top: 2.5em; }
 #discussion .reply .meta { margin-top: 0.75em; }
@@ -58,17 +58,6 @@
 #discussion .discuss .social-actions .social-share ul li { background-color: blue; height: 32px; width: 32px; border-radius: 32px; display: inline-block; }
 
 
-/* Banner section
-#discussion .banner { order: 2; background-image: url(../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
-#discussion .banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
-#discussion .banner h3 { margin-top: 3em; }
-#discussion .banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
-#discussion .banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-style: italic; font-family: Bitter, Cambria, sans-serif; }
-#discussion .banner .author a { color: rgba(255,255,255,1); }
-#discussion .banner .avatar { float: left; border-radius: 4em; width: 4em; height: 4em; margin-right: .5em; }
-#discussion .banner .tag { letter-spacing: .025em; }
- */
-
 #discussion .article .tags { font-size: 1.2em; font-family: Adelle Sans, Arial, sans-serif; }
 
 
@@ -100,3 +89,5 @@
 #discussion .discuss.new-comment div.add-comment { display: flex; flex-direction: row; }
 #discussion .discuss.new-comment textarea { flex: 1; height: 10em; }
 #discussion .discuss.new-comment button { align-self: center; margin-top:1em }
+
+#discussion .discuss { margin-left: 0; margin-right: 1.5em }

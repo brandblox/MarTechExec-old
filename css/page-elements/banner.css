@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Banner section */
+.banner { order: 2; background-image: url(../../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
+.banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
+.banner h3 { margin-top: 3em; }
+.banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
+.banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-style: italic; font-family: Bitter, Cambria, sans-serif; }
+.banner .author a { color: rgba(255,255,255,1); }
+.banner .avatar { float: left; border-radius: 4em; width: 4em; height: 4em; margin-right: .5em; }
+.banner .tags, #article .article .tags { font-size: 1.2em; font-family: Adelle Sans, Arial, sans-serif; }
+.banner .tag { letter-spacing: .025em; }
+
+
+#profile .banner .information .social li{height:2.4em;width:2.4em;border-radius:2.4em;margin:.2em;background-color:aqua}
+
+#profile .banner .information{color:rgba(255,255,255,1);text-shadow:1px 1px 3px rgba(0,0,0,0.8)}

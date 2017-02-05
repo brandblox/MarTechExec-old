@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.avatar img { width: 36px; height: 36px; border-radius: 36px; }
+#company .review .avatar{width:6em;height:6em;border-radius:6em;margin-right:1em;}
+#profile .banner .information .avatar{height:7em;width:7em;border-radius:7em;border:4px solid rgba(255,255,255,1);}
+#profile .edit-photos .avatar{height:7em;width:7em;border-radius:7em;}

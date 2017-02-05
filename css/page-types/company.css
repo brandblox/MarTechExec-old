@@ -1,0 +1,60 @@
+@charset "utf-8";
+.listing .container{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-content:flex-start;align-items:flex-start}
+.listing section{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:center;align-content:center;align-items:stretch}
+.listing article{order:2;flex:1 0 auto;align-self:auto;flex-basis:1em}
+.listing header{order:1;flex:1 1 auto;align-self:auto;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-content:center;align-items:flex-start}
+.listing .top{order:1;flex:2 1 auto;align-self:flex-start}
+.listing .indicators{order:2;flex:1 1 auto}
+.listing .indicators.end{margin:2em 0 0}
+.indicators.end button.bookmark{margin-bottom:0}
+.listing .content{order:2;flex:1 1 auto;align-self:auto;line-height:1.5em}
+.listing footer{order:3;flex:1 1 auto;align-self:auto;display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-content:flex-start;align-items:flex-start}
+.listing-info{margin-bottom:1.2em}
+.listing-info .rating{color:rgba(230,195,0,1);font-size:1.8em;display:inline-block}
+#company .listing-info .review{display:inline-block;margin-left:.6em;font-style:italic}
+.listing-info h1{font-size:2em;margin-right:1em;display:inline-block}
+.listing-info .social-links,.listing-info .social-links li{display:inline-block}
+#company .categories h3{display:inline-block;font-size:inherit}
+#company .categories ul{display:inline-block;margin-right:2em}
+#company .categories ul li{display:inline-block}
+#company .meta{margin-bottom:1em}
+#company header{justify-content:space-between}
+#company .actions{display:flex;flex-direction:column;justify-content:flex-end}
+#company .actions button{margin-bottom:1em}
+#company .actions button.bookmark{align-self:flex-end}
+.listing .product h4{font-family:Bitter,Cambria,sans-serif;font-size:1.4em;margin-bottom:.8em}
+.listing .product{margin-bottom:2em}
+.listing .product .description{line-height:1.6em}
+.listing .status{order:1;flex:0 0 auto;align-self:stretch}
+.listing .tags,.asset{order:2;flex:0 0 auto;align-self:stretch}
+.listing .status{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-content:space-between;align-items:center}
+
+#company .listing .images{display:flex;justify-content:center;margin-top:3em}
+#company .listing .image-assets{flex-direction:row;display:flex}
+#company .listing .image-assets li{height:200px;width:200px;border:1px solid #38a3dd;margin-left:2.5em;margin-right:2.5em;margin-bottom:3em}
+#company .listing .video{display:flex;margin-bottom:3em;margin-top:3em;justify-content:center}
+
+#company .verified{background-color:rgba(56,163,221,1);color:rgba(255,255,255,1);padding:.4em .8em;font-size:.8em;font-weight:300;height:1em}
+#company .review-options{display:flex;flex-direction:row;margin-bottom:2em}
+#company h2{flex:1}
+#company .filter{flex:1}
+#company .review{display:flex;flex-direction:row}
+
+#company .review .review-content{flex:1}
+#company .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
+
+#company .see-more{align-self:flex-end}
+
+
+
+
+#company .discussions{order:3;width:960px;margin:0 auto}
+#company .discussions .discuss{margin:0;border-top:.05em solid rgba(56,163,221,.1)}
+#company .discussions .discuss .container{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-content:flex-start;align-items:flex-start}
+#company .discussions .discuss aside.upvote{order:1;flex:0 1 auto;align-self:auto}
+#company .discussions .discuss header{order:2;flex:1 1 auto;align-self:auto}
+#company .discussions .discuss footer{order:3;flex:0 1 auto;width:13em}
+#company .discussions .discuss .comments{order:2;flex:1 0 auto;text-align:right}
+#company .discussions .next-steps{margin:1em auto 1.2em;text-align:center}
+#company .discussions .block-full-size{margin-bottom:1em;margin-top:-1.5em}
+#company .discussions .next-steps button{display:inline;margin-top:1em}

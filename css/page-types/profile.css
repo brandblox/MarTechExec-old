@@ -1,15 +1,15 @@
 @charset "utf-8";
 
 /* Global Profile Styles */
-#profile .banner{order:2;display:flex;flex-direction:column;justify-content:center;background:transparent url(../images/profile_bg.jpg) no-repeat 50% 100%;height:20em;width:960px;align-self:center}
+#profile .banner{order:2;display:flex;flex-direction:column;justify-content:center;background:transparent url(../../images/profile_bg.jpg) no-repeat 50% 100%;height:20em;width:960px;align-self:center}
 #profile > .banner > .block{flex-direction:column;margin:0;height:100%}
 #profile .tab-group{order:2;align-self:flex-start}
 #profile .tab-group .tab{background-color:transparent;padding:1em 5em;color:rgba(255,255,255,1)}
 #profile .tab-group .tab:hover{background-color:rgba(255,255,255,0.2)}
 #profile .tab-group .tab.selected{background-color:rgba(255,255,255,1);color:rgba(0,0,0,1)}
-#profile .banner .information{display:flex;align-self:center;flex-direction:column;align-items:center;order:1;flex:1 1 auto;margin-top:2em;color:rgba(255,255,255,1);text-shadow:1px 1px 3px rgba(0,0,0,0.8)}
-#profile .banner .information .social li{height:2.4em;width:2.4em;border-radius:2.4em;margin:.2em;background-color:aqua}
-#profile .banner .information .avatar{height:7em;width:7em;border-radius:7em;border:4px solid rgba(255,255,255,1)}
+#profile .banner .information{display:flex;align-self:center;flex-direction:column;align-items:center;order:1;flex:1 1 auto;margin-top:2em;}
+
+
 #profile .banner .information ul{display:flex;flex-direction:row}
 
 /* Activity Tab */
@@ -32,7 +32,6 @@ label{margin:.2em 0}
 #profile .edit-photos{display:flex;flex-direction:column;flex:0 1 auto;margin:0 1em 0 0}
 #profile .edit-basic{display:flex;flex-direction:column;flex:1 1 auto}
 #profile .edit-basic textarea{height:18em}
-#profile .edit-photos .avatar{height:7em;width:7em;border-radius:7em}
 #profile .urls{display:flex;flex-direction:column}
 #profile .urls .input-group{margin-bottom:2em;display:flex;flex-direction:column}
 #profile .validation-input{margin-bottom:2em}
