@@ -5,7 +5,16 @@
 .indicators button.trending { border: 1px solid rgba(255, 88, 6, 1); color: rgba(255, 88, 6, 1); }
 .indicators button.new { border: 1px solid rgba(232, 31, 99, 1); color: rgba(232, 31, 99, 1); }
 
+.tags {font-size: 1.2em; font-family: Adelle Sans, Arial, sans-serif; }
+.tags.in-list {font-size: .9em; }
+.banner .tag { letter-spacing: .025em; }
 
+#discussion .sticky .tags{ display: auto; margin-top: .5em; }
+.indicators.end button.bookmark {margin-bottom:0}				
+
+.actions { order: 2; flex: 1 1 auto; }
+.actions.end { margin: 2em 0 0; }
+.actions.end button.bookmark, .actions.end button.upvote { margin-bottom: 0; }
 
 
 

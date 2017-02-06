@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-body { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-content: stretch; align-items: stretch; padding: 0; background-color: rgba(0, 7, 43, .01); }
+body { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-content: stretch; align-items: stretch; padding: 0; background-color: rgba(0, 7, 43, .05); }
 .wrapper { order: 2; flex: 1; align-self: auto; }
 
 /*Flexbox for the page*/
 header.page { order: 1; flex: 0 0 auto; align-self: stretch; background: rgba(0, 7, 43, 1); }
 main { order: 2; flex: 1 0 auto; align-self: stretch; }
-footer.page { order: 3; flex: 0 1 auto; align-self: stretch; background: rgba(0, 7, 43, 1); }
+footer.page { order: 3; flex: 0 1 auto; align-self: stretch; background: rgba(0, 7, 43, 1); margin-top: 2em; }
 
 /*Flexbox for the page*/
 header.page .block { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }

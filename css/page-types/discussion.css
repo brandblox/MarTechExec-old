@@ -1,18 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Top */
-#discussion .discuss.sticky.reference{background:rgba(56, 163, 221, .2);}
+#discussion .article .actions{order: 2; flex: 1 1 auto; }
+#discussion .article .container{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
+#discussion .article .content{order: 2; flex: 1 1 auto; align-self: auto; line-height: 1.5em; }
+#discussion .article .status{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: space-between; align-items: center;  order: 1; flex: 0 0 auto; align-self: stretch;}
+#discussion .article .tags, .asset{order: 2; flex: 0 0 auto; align-self: stretch; }
+#discussion .article .top{order: 1; flex: 2 1 auto; align-self: flex-start; }
+#discussion .article article{order: 2; flex: 1 0 auto; align-self: auto; flex-basis: 1em; }
+#discussion .article footer{order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
+#discussion .article header{order: 1; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: flex-start; }
+#discussion .article section{display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
 
+
+
+
+
+
+/*#discussion .discuss.sticky.reference{background:rgba(56, 163, 221, .2);}
 #discussion .spinning .spin {background: no-repeat url(../../images/MTE_bug.png) left; padding-left: 3em; background-size: 36px}
-
-
-
-
-
-
 #discussion .sticky .related { visibility: hidden; }
-
 #discussion section.discuss {  }
 #discussion .content p {font-size: 1.25em;}
 #discussion .discuss h1 { font-size: 2em; margin-top: .3em; }
@@ -21,47 +28,27 @@
 #discussion .discuss .author { font-size: 0.75em; }
 #discussion .discuss .date { font-size: 0.75em; display: block; }
 #discussion .discuss .sticky .category, .sticky .upvote { display: block; }
-
 #discussion .discuss-head { display: flex; flex-direction: column; justify-content: space-between; }
 #discussion .discuss-head .upvote i { font-size: 1.7em; }
 #discussion .discuss-head .upvote span { font-size: 1.2em; }
-
-
-#discussion .discuss.reply { margin-top: 0; margin-bottom: 0; marging-left: -3em}
+discussion .discuss.reply { margin-top: 0; margin-bottom: 0; marging-left: -3em}
 #discussion .reply p { margin-left: -1em; padding-left:1em}
-
 #discussion .discuss.reply.level1 .container {}
 #discussion .discuss.reply.level2 .container {border-left: 1em solid rgba(56, 163, 221, .05)}
 #discussion .discuss.reply.level3 .container {border-left: 1em solid rgba(56, 163, 221, .05)}
-
 #discussion .discuss.reply.level1 { }
 #discussion .discuss.reply.level2 {margin-right: 0}
 #discussion .discuss.reply.level3 {margin-right: 0}
-
-
-/*#discussion .discuss .tags { display: block; margin-top: 1em; }*/
-
-
 #discussion .discuss .source { display: flex; flex-direction: row; margin-bottom: 1em; }
 #discussion .discuss .source .mte-bug { width: 30px; height: 30px; margin-right: .5em; }
 #discussion .discuss .source .article-link { display: flex; align-self: center; }
-
-
 #discussion .discuss .top h6 { margin-top: .5em; }
 #discussion .discuss .footer .upvote { margin-top: 1em; }
 #discussion .reply footer { display: flex; flex-direction: row; }
 #discussion .reply footer input { flex: 1; height: 1.9em; margin-right: 0.8em; font-style: italic; }
-
-
 #discussion .discuss .social-actions { display: flex; flex-direction: row; justify-content: space-between; width: 100%; align-items: center; margin-top: 2em; }
 #discussion .discuss .social-actions .social-share ul { list-style: none; margin: 0 2px 0 0; }
 #discussion .discuss .social-actions .social-share ul li { background-color: blue; height: 32px; width: 32px; border-radius: 32px; display: inline-block; }
-
-
-#discussion .article .tags { font-size: 1.2em; font-family: Adelle Sans, Arial, sans-serif; }
-
-
-/* Article section */
 #discussion .article {margin-right: 3em; margin-top: 2.2em; }
 #discussion .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #discussion .article p { font-size: 1.125em; }
@@ -70,24 +57,17 @@
 #discussion .article article h2 { font-size: 1.5em; margin: 1em 0; }
 #discussion .article header { order: 1; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: flex-start; }
 #discussion .article .top { order: 1; flex: 2 1 auto; align-self: flex-start; }
-
 #discussion .article .actions { order: 2; flex: 1 1 auto; }
 #discussion .article .actions.end { margin: 2em 0 0; }
 #discussion .actions.end button.bookmark { margin-bottom: 0; }
-
 #discussion .article .content { order: 2; flex: 1 1 auto; align-self: auto; line-height: 1.5em; }
 #discussion .article footer { order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #discussion .article .tags, .asset { order: 2; flex: 0 0 auto; align-self: stretch; }
 #discussion .article .status { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: space-between; align-items: center;  order: 1; flex: 0 0 auto; align-self: stretch;}
-
 #discussion .article .related { margin-top: 1em; }
-
-
-
-
 #discussion .discuss.new-comment { display: flex; flex-direction: column; }
 #discussion .discuss.new-comment div.add-comment { display: flex; flex-direction: row; }
 #discussion .discuss.new-comment textarea { flex: 1; height: 10em; }
-#discussion .discuss.new-comment button { align-self: center; margin-top:1em }
+#discussion .discuss.new-comment button { align-self: center; margin-top:1em }*/
 
 #discussion .discuss { margin-left: 0; margin-right: 1.5em }

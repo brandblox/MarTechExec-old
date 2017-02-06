@@ -2,22 +2,20 @@
 /* CSS Document */
 
 /* Discuss card flex-box*/
-.discuss {
-	font-size: 1em;
-	font-weight: 300;
-	padding: .5em 1.5em 1.5em;
-	background-color: rgba(255,255,255,1);
-	margin-top: 1.6em;
-	margin-bottom: 1em;
-	margin-left: 3em;
-	padding-top: 1em;
-}
+
 .discuss .comments {
 	order: 2;
-	flex: 0 0 auto;
-	flex-basis: 13em;
-	text-align: right;
+    flex: 1 1 auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
+.discuss .comments ul.avatars {
+	order: 1;}
+
 .discuss .container {
 	display: flex;
 	flex-direction: row;
@@ -37,9 +35,10 @@
 	text-align: right;
 }
 .discuss .related {
-	order: 1;
-	flex: 0 0 auto;
-	align-self: flex-start;
+    order: 1;
+    flex: 1 1 50%;
+    align-self: flex-start;
+    flex-wrap: wrap;
 }
 .discuss .status {
 	order: 1;
@@ -47,7 +46,7 @@
 	align-self: stretch;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
 	align-items: center;
@@ -80,10 +79,8 @@
 	align-self: auto;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-content: flex-start;
-	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .discuss footer .comment-status {
 	display: -webkit-flex;
@@ -128,14 +125,21 @@
 	align-items: stretch;
 }
 /*General Styling*/
+
+.discuss {
+	font-size: 1em;
+	font-weight: 300;
+	padding: .5em 1.5em 1.5em;
+	background-color: rgba(255,255,255,1);
+	margin-top: 1.6em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	padding-top: 1em;
+}
 .discuss .author {
-	float: left;
-	margin-right: 10px;
-	font-size: inherit;
+	margin-right: .5em;
 }
-.discuss .author a, .discuss .metrics a {
-	font-size: inherit;
-}
+
 .discuss .avatar {
 	float: left;
 	border-radius: 2em;
@@ -152,13 +156,9 @@
 .discuss .listings {
 	margin-bottom: 1em;
 }
-.discuss .meta {
-	font-size: .75em;
-	margin-bottom: 1em;
-}
+
 .discuss .metrics {
-	padding-top: .5em;
-	font-size: .8em;
+	order: 2;
 }
 .discuss .metrics a {
 	text-decoration: none
@@ -179,7 +179,7 @@
 	border: solid 1px rgba(255,255,255,.5);
 }
 .discuss h1 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: 300;
 	margin-bottom: .5em;
 }
@@ -192,6 +192,10 @@
 	display: inline
 }
 /*Sticky specific*/
+.discuss.sticky h1 {
+	font-size: 1.7em;
+	margin-top: 1em;
+}
 .discuss .asset img {
 	width: 300px;
 	height: 200px;
@@ -216,9 +220,7 @@
 	-moz-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
 	box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.5);
 }
-.discuss.sticky .related {
-	visibility: hidden;
-}
+
 /*Card types*/
 .contributed-type {
 }
@@ -229,4 +231,34 @@
 .content-type {
 }
 
-#discussion .discuss .sticky .category, #discussion .sticky .indicators, #discussion .sticky .tags{ display: auto; margin-top: .5em; }
+.discuss .author{font-size: 0.9em; }
+.discuss .date{font-size: 0.9em;  }
+.discuss .footer .upvote{margin-top: 1em; }
+.discuss .meta {display: flex; flex-direction: row; padding-bottom: 1em;}
+
+.discuss.new-comment{display: flex; flex-direction: column; }
+.discuss.new-comment button{align-self: center; margin-top:1em }
+.discuss.new-comment div.add-comment{display: flex; flex-direction: row; }
+.discuss.new-comment textarea{flex: 1; height: 10em; }
+
+.discuss.reply{margin-top: 0; margin-bottom: 0; margin-left: -3em}
+#discussion .discuss.reply.level2, .discuss.reply.level3 {margin:0; padding: 1em 0}
+.discuss.reply.level2 .container{border-left: 1em solid rgba(56, 163, 221, .05)}
+.discuss.reply.level3 .container{border-left: 1em solid rgba(56, 163, 221, .05)}
+.reply .meta{margin-top: 0.75em; }
+.reply footer{display: flex; flex-direction: row; }
+.reply footer input{flex: 1; margin-right: 0.8em; font-style: italic; }
+.reply p{margin-left: -1em; padding-left:1em}
+
+.discuss-head{display: flex; flex-direction: column; justify-content: space-between; }
+.discuss-head .upvote i{font-size: 1.7em; }
+.discuss-head .upvote span{font-size: 1.2em; }
+
+#discussion .discuss.sticky {}
+
+.discuss .sticky .category, .sticky .upvote{display: block; }
+.discuss.sticky.reference{background:rgba(56, 163, 221, .2); margin-top: 2.25em; margin-bottom: 0; padding-bottom: 0;}
+.spinning .spin{background: no-repeat url(../../images/MTE_bug.png) left; padding-left: 3em; background-size: 36px}
+.sticky .related{visibility: hidden; }
+
+#discussion .discuss .sticky .category, #discussion .sticky .indicators { display: auto; margin-top: .5em; }

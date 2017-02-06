@@ -4,24 +4,19 @@
 
 
 /* Article section */
-#article .article {margin-right: 3em; margin-top: 2.2em; }
-#article .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }#article .article p { font-size: 1.125em; }
+#article .article {margin-right: 3em; margin-top: 2.2em; padding: 2em; background: #fff; }
+#article .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #article .article section { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
 #article .article article { order: 2; flex: 1 0 auto; align-self: auto; flex-basis: 1em; }
 #article .article article h2 { font-size: 1.5em; margin: 1em 0; }
 #article .article header { order: 1; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: flex-start; }
 #article .article .top { order: 1; flex: 2 1 auto; align-self: flex-start; }
 
-#article .article .actions { order: 2; flex: 1 1 auto; }
-#article .article .actions.end { margin: 2em 0 0; }
-#article .actions.end button.bookmark { margin-bottom: 0; }
-
 #article .article .content { order: 2; flex: 1 1 auto; align-self: auto; line-height: 1.5em; }
 #article .article footer { order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #article .article .tags, .asset { order: 2; flex: 0 0 auto; align-self: stretch; }
 #article .article .status { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: space-between; align-items: center;  order: 1; flex: 0 0 auto; align-self: stretch;}
 
-#article .article .related { margin-top: 1em; }
 
 /* Discussions section */
 #article .discussions { order: 3; width: 960px; margin: 0 auto; }

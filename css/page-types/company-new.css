@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Article section */
+#company .article {margin-right: 3em; margin-top: 2.2em; padding: 2em; background: #fff; }
+#company .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
+#company .article section { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
+#company .article article { order: 2; flex: 1 0 auto; align-self: auto; flex-basis: 1em; }
+#company .article article h2 { font-size: 1.5em; margin: 1em 0; }
+#company .article header { order: 1; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: flex-start; }
+#company .article .top { order: 1; flex: 2 1 auto; align-self: flex-start; }
+
+#company .article .content { order: 2; flex: 1 1 auto; align-self: auto; line-height: 1.5em; }
+#company .article footer { order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
+#company .article .tags, .asset { order: 2; flex: 0 0 auto; align-self: stretch; }
+#company .article .status { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: space-between; align-items: center;  order: 1; flex: 0 0 auto; align-self: stretch;}
+
+
+/* Discussions section */
+#company .discussions { order: 3; width: 960px; margin: 0 auto; }
+#company .discussions .discuss { margin: 0; border-top: .05em solid rgba(56, 163, 221, .1); }
+#company .discussions .discuss .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: flex-start; align-items: flex-start; }
+#company .discussions .discuss aside.upvote { order: 1; flex: 0 1 auto; align-self: auto; }
+#company .discussions .discuss header { order: 2; flex: 1 1 auto; align-self: auto; }
+#company .discussions .discuss footer { order: 3; flex: 0 1 auto; width: 13em; }
+#company .discussions .discuss .comments { order: 2; flex: 1 0 auto; text-align: right; }
+#company .discussions .next-steps { margin: 1em auto 1.2em; text-align: center; }
+#company .discussions .block-full-size { margin-bottom: 1em; margin-top: -1.5em; }
+#company .discussions .next-steps button { display: inline; margin-top: 1em; }
