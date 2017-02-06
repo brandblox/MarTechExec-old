@@ -3,6 +3,7 @@
 
 /* Banner section */
 .banner { order: 2; background-image: url(../../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
+.banner.alt {background-image: url(../../images/advertising_search@3x-8.png); background-repeat: repeat; background-color: rgba(0,93,143,1); }
 .banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
 .banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
 .banner h3 a.community-engagement { text-transform: lowercase; font-weight: 300;}
