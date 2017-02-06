@@ -16,6 +16,10 @@
 	width: 7em;
 	margin-right: .3em;
 }
+.actions a {
+  display: block;
+  margin: 2em 0;
+}
 .category a {
 	text-transform: uppercase;
 	font-size: .8em;
