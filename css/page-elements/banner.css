@@ -5,11 +5,15 @@
 .banner { order: 2; background-image: url(../../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
 .banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
 .banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
+.banner h3 a.community-engagement { text-transform: lowercase; font-weight: 300;}
+.banner h3 a.community-engagement strong{ font-size: 1.2em;}
 .banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-style: italic; font-family: Bitter, Cambria, sans-serif; }
+.banner .meta .original-article a { font-size: 1.2em; font-style: normal; color: rgba(255,255,255,1); font-family: Bitter, Cambria, sans-serif;}
 .banner .author a { color: rgba(255,255,255,1); }
 .banner a.request-guidelines { color: rgba(255,255,255,1); }
 .banner .avatar { float: left; border-radius: 4em; width: 4em; height: 4em; margin-right: .5em; }
 .banner .block {margin-top: .5em; margin-bottom: 3em;padding-left: 2.5em;}
+.banner h4 a { color: rgba(255,255,255,1); margin: 1em 0 0 0; font-weight: 300; display: block}
 
 
 #profile .banner .information .social li{height:2.4em;width:2.4em;border-radius:2.4em;margin:.2em;background-color:aqua}
