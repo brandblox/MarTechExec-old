@@ -16,7 +16,7 @@
 #article .article footer { order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #article .article .tags, .asset { order: 2; flex: 0 0 auto; align-self: stretch; }
 #article .article .status { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: space-between; align-items: center;  order: 1; flex: 0 0 auto; align-self: stretch;}
-#article .banner .meta.external { background-color: rgba(255, 255, 255, .4); padding: 2.3em; box-shadow: 0 2px 5px rgba(0, 0, 0, .3) }
+#article .banner .meta.external { background-color: rgba(0, 0, 0, .25); padding: 2.3em;  }
 
 /* Discussions section */
 #article .discussions { order: 3; width: 960px; margin: 0 auto; }
