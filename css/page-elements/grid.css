@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Grid section */
+.grid { margin: 2em 0;}
+.grid ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid ul li {
+  display: block;
+  background-color: rgba(255,255,255,1);
+  margin: 1em;
+  padding: 1.4em;
+  width: 12em;
+}

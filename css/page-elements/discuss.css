@@ -254,7 +254,7 @@
 .discuss-head .upvote i{font-size: 1.7em; }
 .discuss-head .upvote span{font-size: 1.2em; }
 
-#discussion .discuss.sticky {}
+#discussion .discuss.sticky { margin-top: 2.2em; }
 
 .discuss .sticky .category, .sticky .upvote{display: block; }
 .discuss.sticky.reference{background:rgba(56, 163, 221, .2); margin-top: 2.25em; margin-bottom: 0; padding-bottom: 0;}

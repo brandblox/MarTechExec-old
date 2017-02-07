@@ -11,7 +11,7 @@
 #discussion .article footer{order: 3; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #discussion .article header{order: 1; flex: 1 1 auto; align-self: auto; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: flex-start; }
 #discussion .article section{display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
-
+#discussion .next-steps { margin: 1em auto 1.2em; text-align: center; }
 
 
 
