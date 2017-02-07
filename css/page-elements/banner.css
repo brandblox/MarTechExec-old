@@ -2,13 +2,22 @@
 /* CSS Document */
 
 /* Banner section */
-.banner { order: 2; background-image: url(../../images/advertising_search-8_10p.png); background-repeat: repeat; background-color: rgba(232, 31, 99, 1); }
-.banner.alt { background-color: rgba(0,93,143,1); }
+.banner { order: 2; background-repeat: repeat}
+.alt1 { background-image: url(../../images/advertising_search-8_10p.png)}
+.alt2 { background-image: url(../../images/martech_pattern_01-8_10p.png)}
+.alt3 { background-image: url(../../images/martech_pattern_02-8_10p.png)}
+.alt4 { background-image: url(../../images/martech_pattern_03-8_10p.png)}
+.alt5 { background-image:url(../../images/martech_pattern_04-8_10p.png)}
+.swatch1 {  background-color: rgba(232, 31, 99, 1) }
+.swatch2 { background-color: rgba(45,76,186, 1)}
+.swatch3 { background-color: rgba(0,150,135,1)}
+.swatch4 { background-color: rgba(152,38,175,1)}
+.swatch5 { background-color: rgba(255,170,0,1) }
 .banner h1 { display: block; font-size: 2em; color: rgba(255,255,255,1); clear: both; font-weight: 100; }
 .banner h3 a { color: #fff; font-weight: 100; font-size: 1em; margin-bottom: 0; }
 .banner h3 a.community-engagement { text-transform: lowercase; font-weight: 300;}
 .banner h3 a.community-engagement strong{ font-size: 1.2em;}
-.banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-style: italic; font-family: Bitter, Cambria, sans-serif; }
+.banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-family: Bitter, Cambria, sans-serif; }
 .banner .meta .original-article a { font-size: 1.2em; font-style: normal; color: rgba(255,255,255,1); font-family: Bitter, Cambria, sans-serif;}
 .banner .author { padding-top: 0.2em; display: block;}
 .banner .author a { color: rgba(255,255,255,1);}
