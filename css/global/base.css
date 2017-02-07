@@ -19,3 +19,4 @@ p { line-height: 2em; margin-bottom: 1em; }
 
 .breadcrumb {}
 .breadcrumb li{ display: inline-block;}
+.breadcrumb i {margin: 0 0.8em; color: rgba(0,0,0,0.6);}
