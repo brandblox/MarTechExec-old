@@ -2,21 +2,9 @@
 /* CSS Document */
 
 /* Grid section */
-.grid { margin: 3em 1.5em 3em 0;}
-.grid ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 2em 0;
-}
-.grid ul li {
-  display: block;
-  background-color: rgba(255,255,255,1);
-  padding: 1em;
-  width: 14em;
-  margin-bottom: 1em;
-}
-.grid .end {
-  text-align: right;
-}
+.grid{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;margin:2em 0 0}
+.grid li{display:block;background-color:rgba(255,255,255,1);padding:1em;width:12em;margin-bottom:1em;border:1px solid rgba(56,163,221,0.1)}
+.grid li:hover{background-color:rgba(56,163,221,0.2)}
+.grid a,.grid a:hover{text-decoration:none}
+.grid .title{font-weight:600}
+.grid .author{color:rgba(0,0,0,1)}
