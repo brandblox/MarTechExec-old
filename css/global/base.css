@@ -16,3 +16,6 @@ p { line-height: 2em; margin-bottom: 1em; }
 .discuss .excerpt, .listing .product .description {
     line-height: 1.6em; margin-bottom: 1em;
 }
+
+.breadcrumb {}
+.breadcrumb li{ display: inline-block;}

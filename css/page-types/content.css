@@ -4,7 +4,7 @@
 
 
 /* Article section */
-#article .article {margin-right: 3em; margin-top: 2.2em; padding: 2em; background: #fff; }
+#article .article {margin-right: 3em; margin-top: 0.5em; padding: 2em; background: #fff; }
 #article .article .container { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
 #article .article section { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: stretch; }
 #article .article article { order: 2; flex: 1 0 auto; align-self: auto; flex-basis: 1em; }
