@@ -12,7 +12,7 @@ a:hover { text-decoration: underline; }
 button, .c2a a { padding: .4em .8em; color: #fff; font-size: 1em; border: 0; }
 button.asset { background-color: rgba(232, 31, 99, 1); color: rgba(255, 255, 255, 1); }
 button.asset:hover { background-color: rgba(155,0,53, 1);}
-button.discuss-upvote { padding: .4em .8em; font-size: 1em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; }
+button.discuss-upvote, button.load-more { padding: .4em .8em; font-size: 1em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; }
 button.discuss-upvote:hover {border: 1px solid rgba(7, 96, 144, 1); background: rgba(255,255,255,1); color: rgba(7, 96, 144, 1)}
 button.join { background-color: rgba(255, 88, 6, 1); }
 button.join:hover { background-color: rgba(178, 59, 0, 1); }
