@@ -1,7 +1,9 @@
-@charset utf-8;
+@charset "utf-8";
+
 /* CSS Document */
 .actions button .fa-bookmark-o, .actions button .fa-thumbs-o-up { margin-right: .3em; }
 .actions button.bookmark, .actions button.upvote, button.change-photo, button.change-background { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
+.actions button.bookmark:hover, .actions button.upvote:hover, button.change-photo:hover, button.change-background:hover {border: 1px solid rgba(7, 96, 144, 1); background: rgba(255,255,255,1); color: rgba(7, 96, 144, 1);}
 .actions button.upvote { width: 7em; margin-right: .3em; }
 .actions a { display: block; margin: 2em 0; }
 .category a { text-transform: uppercase; font-size: .8em; letter-spacing: .05em; }
@@ -9,14 +11,19 @@ a { color: rgba(56, 163, 221, 1); text-decoration: none; }
 a:hover { text-decoration: underline; }
 button, .c2a a { padding: .4em .8em; color: #fff; font-size: 1em; border: 0; }
 button.asset { background-color: rgba(232, 31, 99, 1); color: rgba(255, 255, 255, 1); }
+button.asset:hover { background-color: rgba(155,0,53, 1);}
 button.discuss-upvote { padding: .4em .8em; font-size: 1em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; }
+button.discuss-upvote:hover {border: 1px solid rgba(7, 96, 144, 1); background: rgba(255,255,255,1); color: rgba(7, 96, 144, 1)}
 button.join { background-color: rgba(255, 88, 6, 1); }
+button.join:hover { background-color: rgba(178, 59, 0, 1); }
 button.large, button.start-discuss, button.submit-comment { font-size: 1.2em; display: block; font-weight: 300; border: 0px; padding: 1em 2em; }
 button.login { background-color: none; }
 button.reply { border: 1px solid rgba(56, 163, 221, 1); color: rgba(56, 163, 221, 1); background-color: rgba(255,255,255,1); }
 button.reply:hover { color: rgba(255,255,255,1); background-color: rgba(56, 163, 221, 1); }
 button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
+button.start-discuss:hover, button.submit-comment:hover, button.send-message:hover, button.make-call:hover, button.save-profile:hover { background-color: rgba(7, 96, 144, 1); }
 button.tag { border-radius: 2px; padding: .4em .8em; font-size: .8em; text-transform: lowercase; font-weight: 300; background: rgba(56, 163, 221, 1); color: rgba(255,255,255,1) }
+button.tag:hover { background: rgba(7, 96, 144, 1); color: rgba(255,255,255,1) }
 button.upvote { width: 3em; font-size: 1.2em; border: 1px solid rgba(255,255,255,0); color: rgba(56, 163, 221, 1); background: rgba(255,255,255,0); }
 button.upvote:hover { border-radius: 4px; border: 1px solid rgba(56, 163, 221, 1); cursor: pointer; }
 ul.tab-group { margin: 0; padding: 0; list-style: none; }
