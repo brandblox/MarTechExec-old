@@ -16,3 +16,8 @@
   padding: 1.4em;
   width: 12em;
 }
+
+.grid .end {
+  text-align: right;
+  margin: 0 2em 4em 0;
+}
