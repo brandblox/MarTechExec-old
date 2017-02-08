@@ -35,4 +35,4 @@
 .banner .discussion-title h1 { display: inline-block; }
 .banner .discussion-title { display: block; margin-bottom: 3.2em; }
 .banner .discussion-title .discussion-meta { display: flex; flex-direction: row; justify-content: space-between; margin-top: 0.2em;}
-.banner .discussion-title .metrics a { color: rgba(255,255,255,1); text-decoration: underline; margin-left: 0.8em; }
+.banner .discussion-title .metrics a { color: rgba(255,255,255,1); margin-left: 0.8em; }
