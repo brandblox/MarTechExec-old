@@ -18,8 +18,9 @@
 .banner h3 a.community-engagement { text-transform: lowercase; font-weight: 300;}
 .banner h3 a.community-engagement strong{ font-size: 1.2em;}
 .banner .meta { margin: 2em 0; color: rgba(255,255,255,1); line-height: 1.3em; font-size: 1.2em; font-family: Bitter, Cambria, sans-serif; }
-.banner .meta .original-article a { font-size: 1.2em; font-style: normal; color: rgba(255,255,255,1); font-family: Bitter, Cambria, sans-serif;}
-.banner .author { padding-top: 0.2em; display: block;}
+.banner .meta .original-article a{ font-size: 1.2em; font-style: normal; color: rgba(255,255,255,1); font-family: Bitter, Cambria, sans-serif;}
+.banner .meta.external { background-color: rgba(0, 0, 0, .25); padding: 2.3em;  }
+.banner .author { padding-top: 0.2em; display: block; color: rgba(255,255,255,1);}
 .banner .author a { color: rgba(255,255,255,1);}
 .banner a.request-guidelines { color: rgba(255,255,255,1); margin: 2em 0 0 0; display: block; }
 .banner .avatar { float: left; border-radius: 4em; width: 4em; height: 4em; margin-right: .5em; }
@@ -31,3 +32,7 @@
 #profile .banner .information .social li{height:2.4em;width:2.4em;border-radius:2.4em;margin:.2em;background-color:aqua; }
 
 #profile .banner .information{color:rgba(255,255,255,1);text-shadow:1px 1px 3px rgba(0,0,0,0.8)}
+.banner .discussion-title h1 { display: inline-block; }
+.banner .discussion-title { display: block; margin-bottom: 3.2em; }
+.banner .discussion-title .discussion-meta { display: flex; flex-direction: row; justify-content: space-between; margin-top: 0.2em;}
+.banner .discussion-title .metrics a { color: rgba(255,255,255,1); text-decoration: underline; margin-left: 0.8em; }
