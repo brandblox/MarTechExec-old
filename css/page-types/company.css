@@ -44,7 +44,7 @@
 #company .review .review-content{flex:1}
 #company .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 
-#company .see-more{align-self:flex-end}
+#company .see-more{ margin: 1em auto; display: block;}
 #company .load-more { margin: 1em auto; display: block; }
 
 #company .company-logo { display: block; margin: .4em 0 }
