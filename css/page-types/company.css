@@ -45,7 +45,7 @@
 #company .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 
 #company .see-more{align-self:flex-end}
-#company .load-more { margin: 1em auto }
+#company .load-more { margin: 1em auto; display: block; }
 
 #company .company-logo { display: block; margin: .4em 0 }
 
@@ -56,7 +56,9 @@
 #company .discussions .discuss header{order:2;flex:1 1 auto;align-self:auto}
 #company .discussions .discuss footer{order:3;flex:0 1 auto;width:13em}
 #company .discussions .discuss .comments{order:2;flex:1 0 auto;text-align:right}
-#company .discussions .next-steps{margin:1em auto 1.2em;text-align:center}
+#company .discussions .next-steps{margin:1em auto 1.2em;text-align:center;}
+#company .discussions footer {background-color: rgba(255,255,255,1);}
+#company .discussions .reviews {margin:1em auto 1.2em;}
 #company .discussions .block-full-size{margin-bottom:1em;margin-top:-1.5em}
 #company .discussions .next-steps button{display:inline;margin-top:1em}
 #company button.large {min-width: 12.7em }
