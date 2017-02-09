@@ -19,7 +19,7 @@
 #company .categories ul li{display:inline-block}
 #company .meta{margin-bottom:1em}
 #company header{justify-content:space-between}
-#company .actions{display:flex;flex-direction:column;justify-content:flex-end}
+#company .actions{display:flex;flex-direction:column;align-items: flex-end}
 #company .actions button{margin-bottom:1em}
 #company .actions button.bookmark{align-self:flex-end}
 .listing .product h4{font-family:Bitter,Cambria,sans-serif;font-size:1.4em;margin-bottom:.8em}
@@ -44,9 +44,9 @@
 #company .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 
 #company .see-more{align-self:flex-end}
+#company .load-more { margin: 1em auto }
 
-
-
+#company .company-logo { display: block; margin: .4em 0 }
 
 #company .discussions{order:3;width:960px;margin:0 auto}
 #company .discussions .discuss{margin:0;border-top:.05em solid rgba(56,163,221,.1)}
@@ -58,3 +58,4 @@
 #company .discussions .next-steps{margin:1em auto 1.2em;text-align:center}
 #company .discussions .block-full-size{margin-bottom:1em;margin-top:-1.5em}
 #company .discussions .next-steps button{display:inline;margin-top:1em}
+#company button.large {min-width: 12em }
