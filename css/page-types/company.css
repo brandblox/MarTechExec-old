@@ -14,7 +14,8 @@
 #company .listing-info .review{display:inline-block;margin-left:.6em;font-style:italic}
 .listing-info h1{font-size:2em;margin-right:1em;display:inline-block}
 .listing-info .social-links,.listing-info .social-links li{display:inline-block}
-#company .categories h3{display:inline-block;font-size:inherit}
+#company .categories { margin-top: 1.5em; }
+#company .categories h3{display:inline-block;font-size:inherit; margin-top: 0;}
 #company .categories ul{display:inline-block;margin-right:2em}
 #company .categories ul li{display:inline-block}
 #company .meta{margin-bottom:1em}
