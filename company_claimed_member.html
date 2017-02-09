@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/sidebars/sidebars.css">
 <link rel="stylesheet" type="text/css" href="css/global/global.css">
 <!-- Apply page-specific -->
-<!-- right rail -->
+<!-- right rail, claim CTA -->
 <link rel="stylesheet" type="text/css" href="css/page-types/company.css">
 </head>
 
@@ -27,18 +27,20 @@
 </header>
 <main class="block">
   <div class="wrapper">
+    <header>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a> <i class="fa fa-chevron-right"></i> </li>
+        <li><a href="#">Advertising &amp; Promotion</a> <i class="fa fa-chevron-right"></i> </li>
+        <li><a href="#">Company Name</a></li>
+      </ul>
+    </header>
     <section class="listing">
       <div class="container">
         <article>
           <header>
             <div class="listing-info">
-              <div class="category"><a href="#">Advertising &amp; Promotion</a></div>
+              <img class="company-logo" src="http://placehold.it/200x80"/>
               <h1>Company Name</h1>
-              <ul class="social-links">
-                <li>Link</li>
-                <li>Link</li>
-                <li>Link</li>
-              </ul>
               <div class="metrics">
                 <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
                 <div class="review"> <a href="#">51 Reviews</a> </div>
@@ -51,8 +53,6 @@
               </div>
             </div>
             <div class="actions">
-              <button class="large send-message">Send a message</button>
-              <button class="large make-call">Click to call</button>
               <button class="bookmark"><i class="fa fa-bookmark-o"></i>Bookmark</button>
             </div>
           </header>
@@ -62,18 +62,22 @@
           </div>
           <footer>
             <div class="categories">
+            <div>
               <h3 class="solutions">Categories:</h3>
               <ul class="listings">
                 <li><a href="">Category 1</a>,</li>
                 <li><a href="">Category 2</a>,</li>
                 <li><a href="">Category 3</a></li>
               </ul>
+              </div>
+              <div>
               <h3 class="solutions">Sub-Categories:</h3>
               <ul class="listings">
                 <li><a href="">Category 1</a>,</li>
                 <li><a href="">Category 2</a>,</li>
                 <li><a href="">Category 3</a></li>
               </ul>
+              </div>
             </div>
             <div class="tags">
               <button class="tag">ABM Strategies</button>
@@ -84,19 +88,7 @@
         </article>
       </div>
     </section>
-    <section class="listing">
-      <div class="images">
-        <ul class="image-assets">
-          <li>image</li>
-          <li>image</li>
-          <li>image</li>
-        </ul>
-      </div>
-      <div class="video">
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/watch?v=0fYL_qiDYf0"> </iframe>
-      </div>
-    </section>
+    
     <section class="listing">
       <div class="product">
         <div class="category"><a href="#">Advertising &amp; Promotion</a></div>
@@ -142,7 +134,6 @@
             <div class="review-header">
               <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
               <h4>Suspendisse commodo eleifend ipsum vitae viverra. of Review</h4>
-              <div class="verified">Verified</div>
             </div>
             <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
             <i class="star-badge"></i>
@@ -157,13 +148,138 @@
         </div>
       </div>
       <footer>
-        <button class="see-more">See more reviews</button>
+        <button class="load-more">See more reviews <i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
       </footer>
     </section>
   </div>
+<aside class="related">
+    <header>
+      <h2>Related Solutions</h2>
+    </header>
+    <div class="result sponsor">
+      <div class="logo"><img src="images/jira.png" width="160" height="80" alt=""/></div>
+      <h3><a href="#">Jira</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <div class="logo"><img src="images/itv.png" width="160" height="80" alt=""/></div>
+      <h3><a href="#">ITV</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <div class="logo"><img src="images/boon.png" width="160" height="80" alt=""/></div>
+      <h3><a href="#">Boon</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company Name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company Name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company Name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company Name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="result sponsor">
+      <h3><a href="#">Company Name</a></h3>
+      <div class="metrics">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
+        <div class="review"></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li><a href="#">Category</a> &#8250; </li>
+          <li><a href="#">Subcategory</a></li>
+        </ul>
+      </div>
+    </div>
+  </aside>
 </main>
 <section class="discussions block-full-size">
-  <div class="next-steps">
+  <div class="next-steps listing">
     <h2>Read related discussions about [Company], or</h2>
     <button class="start-discuss">Start a New Discussion</button>
   </div>
