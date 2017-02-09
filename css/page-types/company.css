@@ -35,7 +35,7 @@
 #company .listing .image-assets li{height:200px;width:200px;border:1px solid #38a3dd;margin-left:2.5em;margin-right:2.5em;margin-bottom:3em}
 #company .listing .video{display:flex;margin-bottom:3em;margin-top:3em;justify-content:center}
 
-#company .verified{background-color:rgba(56,163,221,1);color:rgba(255,255,255,1);padding:.4em .8em;font-size:.8em;font-weight:300;height:1em}
+#company .verified{background-color:rgba(56,163,221,1);color:rgba(255,255,255,1);padding:.4em .8em;font-size:.8em;font-weight:300;height:1em; border-radius: 12px;}
 #company .review-options{display:flex;flex-direction:row;margin-bottom:2em}
 #company h2{flex:1}
 #company .filter{flex:1}
