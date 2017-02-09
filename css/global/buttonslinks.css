@@ -20,7 +20,7 @@ button.large, button.start-discuss, button.submit-comment { font-size: 1.2em; di
 button.login { background-color: none; }
 button.reply { border: 1px solid rgba(56, 163, 221, 1); color: rgba(56, 163, 221, 1); background-color: rgba(255,255,255,1); }
 button.reply:hover { color: rgba(255,255,255,1); background-color: rgba(56, 163, 221, 1); }
-button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
+button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile, button.claim { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
 button.start-discuss:hover, button.submit-comment:hover, button.send-message:hover, button.make-call:hover, button.save-profile:hover { background-color: rgba(7, 96, 144, 1); }
 button.tag { border-radius: 2px; padding: .4em .8em; font-size: .8em; text-transform: lowercase; font-weight: 300; background: rgba(56, 163, 221, 1); color: rgba(255,255,255,1) }
 button.tag:hover { background: rgba(7, 96, 144, 1); color: rgba(255,255,255,1) }
