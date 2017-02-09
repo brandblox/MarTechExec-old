@@ -27,18 +27,20 @@
 </header>
 <main class="block">
   <div class="wrapper">
+    <header>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a> <i class="fa fa-chevron-right"></i> </li>
+        <li><a href="#">Advertising &amp; Promotion</a> <i class="fa fa-chevron-right"></i> </li>
+        <li><a href="#">Company Name</a></li>
+      </ul>
+    </header>
     <section class="listing">
       <div class="container">
         <article>
           <header>
             <div class="listing-info">
-              <div class="category"><a href="#">Advertising &amp; Promotion</a></div>
+              <img class="company-logo" src="http://placehold.it/200x80"/>
               <h1>Company Name</h1>
-              <ul class="social-links">
-                <li>Link</li>
-                <li>Link</li>
-                <li>Link</li>
-              </ul>
               <div class="metrics">
                 <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
                 <div class="review"> <a href="#">51 Reviews</a> </div>
@@ -51,9 +53,10 @@
               </div>
             </div>
             <div class="actions">
-              <button class="large send-message">Send a message</button>
-              <button class="large make-call">Click to call</button>
+              <button class="upgrade large">Upgrade</button>
+              <button class="sponsor large">Sponsor</button>
               <button class="bookmark"><i class="fa fa-bookmark-o"></i>Bookmark</button>
+              <button class="edit"><i class="fa fa-edit"></i>Edit</button>
             </div>
           </header>
           <div class="content">
@@ -82,19 +85,6 @@
             </div>
           </footer>
         </article>
-      </div>
-    </section>
-    <section class="listing">
-      <div class="images">
-        <ul class="image-assets">
-          <li>image</li>
-          <li>image</li>
-          <li>image</li>
-        </ul>
-      </div>
-      <div class="video">
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/watch?v=0fYL_qiDYf0"> </iframe>
       </div>
     </section>
     <section class="listing">
@@ -142,7 +132,6 @@
             <div class="review-header">
               <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> </div>
               <h4>Suspendisse commodo eleifend ipsum vitae viverra. of Review</h4>
-              <div class="verified">Verified</div>
             </div>
             <div class="author">posted by <a href="#">Ryman Stringer</a> </div>
             <i class="star-badge"></i>
@@ -157,13 +146,13 @@
         </div>
       </div>
       <footer>
-        <button class="see-more">See more reviews</button>
+        <button class="load-more">See more reviews <i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
       </footer>
     </section>
   </div>
 </main>
 <section class="discussions block-full-size">
-  <div class="next-steps">
+  <div class="next-steps listing">
     <h2>Read related discussions about [Company], or</h2>
     <button class="start-discuss">Start a New Discussion</button>
   </div>
