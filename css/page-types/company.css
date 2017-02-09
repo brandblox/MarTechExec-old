@@ -63,3 +63,7 @@
 #company .discussions .next-steps button{display:inline;margin-top:1em}
 #company button.large { min-width: 12.7em }
 #company .listing {margin-top: 0.5em; margin-right: 1.5em }
+#company .owner {border: 1px solid rgba(56,163,221,1); padding: 1.4em 0; }
+#company .owner .actions { display: flex; flex-direction: row; }
+#company .owner .actions button {display: flex; margin: 0 1.2em; min-width: auto;}
+#company button.upgrade, #company button.sponsor { padding: 0.7em 2em;}
