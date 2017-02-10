@@ -1,6 +1,6 @@
 @charset "utf-8";
 .featured-image { background-image: cover url( ../images/7-Tips-for-Growth-Hacking-Your-Way-to-the-Top-of-Your-Industry.jpg) }
 
-.discuss, .article, .listing, .about { font-size: 1em; font-weight: 300; padding: .5em 1.5em 1.5em; background-color: rgba(255,255,255,1); margin-top: 1.6em; margin-bottom: 1em; padding-top: 1em; }
+.discuss, .article, .listing, .about, .review-container { font-size: 1em; font-weight: 300; padding: .5em 1.5em 1.5em; background-color: rgba(255,255,255,1); margin-top: 1.6em; margin-bottom: 1em; padding-top: 1em; }
 
 #article .article p { font-size: 1.125em; }

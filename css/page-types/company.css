@@ -67,3 +67,12 @@
 #company .owner .actions { display: flex; flex-direction: row; }
 #company .owner .actions button {display: flex; margin: 0 1.2em; min-width: auto;}
 #company button.upgrade, #company button.sponsor { padding: 0.7em 2em;}
+
+#company .tab-group{order:2;align-self:flex-start}
+#company .tab-group .tab{background-color:rgba(56,163,221,0.4);padding:1em 5em;color:rgba(255,255,255,1)}
+#company .tab-group .tab:hover{background-color:rgba(56,163,221,0.8)}
+#company .tab-group .tab.selected{background-color:rgba(255,255,255,1);color:rgba(0,0,0,1); font-weight: 600;}
+#company section.reviews { margin-top: 3em; }
+#company section.reviews .listing { margin-top: 0; }
+#company section.reviews footer { background-color: rgba(255,255,255,1); padding: 1em;}
+#company section.reviews .review-container { margin: 0; display: flex; flex-direction: column;}
