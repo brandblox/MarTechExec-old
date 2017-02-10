@@ -38,6 +38,7 @@
 #company .verified{color:rgba(56,163,221,1);font-size:1em;font-weight:300;height:1em; border-radius: 12px;}
 #company .review-options{display:flex;flex-direction:row;margin-bottom:2em}
 #company h2{flex:1}
+#company h4{margin-bottom: .5em}
 #company .filter{flex:1}
 #company .review{display:flex;flex-direction:row}
 
