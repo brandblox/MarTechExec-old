@@ -39,5 +39,5 @@ label{margin:.2em 0}
 .image-select-group button{margin-top:1em}
 #profile .update a {font-size: 1em; letter-spacing: .05em}
 #profile .update  {font-size: 1em; letter-spacing: .05em; margin-bottom: 1em}
-#profile .asset-type {display: flex; align-items: center}
+#profile .asset-type {display: flex; align-items: center; flex-direction: row;}
 #profile img {margin-right: 1em}
