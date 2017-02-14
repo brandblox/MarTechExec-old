@@ -37,3 +37,5 @@ label{margin:.2em 0}
 #profile .validation-input{margin-bottom:2em}
 .image-select-group{margin-bottom:2em;display:flex;flex-direction:column;align-items:center}
 .image-select-group button{margin-top:1em}
+#profile .update a {font-size: 1em; letter-spacing: .05em}
+#profile .update  {font-size: .8em; letter-spacing: .05em; margin-bottom: 1em}
