@@ -23,7 +23,7 @@
 #company .actions{display:flex;flex-direction:column;align-items: flex-end}
 #company .actions button{margin-bottom:1em}
 #company .actions button.bookmark{align-self:flex-end}
-.listing .product h4{font-family:Bitter,Cambria,sans-serif;font-size:1.4em;margin-bottom:.8em}
+.listing .product h4, .listing h4{font-family:Bitter,Cambria,sans-serif;font-size:1.4em;margin-bottom:.8em}
 .listing .product{margin-bottom:2em}
 .listing .product .description{line-height:1.6em}
 .listing .status{order:1;flex:0 0 auto;align-self:stretch}
@@ -75,7 +75,7 @@
 #company .owner {border: 1px solid rgba(56,163,221,1); padding: 1.4em 0; }
 #company .owner .actions { display: flex; flex-direction: row; }
 #company .owner .actions button {display: flex; margin: 0 1.2em; min-width: auto;}
-#company button.upgrade, #company button.sponsor { padding: 0.7em 2em;}
+#company button.upgrade, #company button.sponsor, #company button.contribute { padding: 0.7em 2em;}
 
 #company .tab-group{order:2;align-self:flex-start}
 #company .tab-group .tab{background-color:rgba(56,163,221,0.4);padding:1em 5em;color:rgba(255,255,255,1)}

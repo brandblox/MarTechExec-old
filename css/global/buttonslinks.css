@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .actions button .fa-bookmark-o, .actions button .fa-thumbs-o-up, .actions button .fa-edit { margin-right: .3em; }
-.actions button.bookmark, .actions button.upvote, button.change-photo, button.change-background, button.edit { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
+.actions button.bookmark, .actions button.upvote, button.change-photo, button.change-background, button.edit, button.load-more { padding: .4em .8em; font-size: 1.2em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; border-radius: 0; }
 .actions button.bookmark:hover, .actions button.upvote:hover, button.change-photo:hover, button.change-background:hover, button.edit:hover { border: 1px solid rgba(7, 96, 144, 1); background: rgba(255,255,255,1); color: rgba(7, 96, 144, 1); }
 .actions button.upvote { width: 7em; margin-right: .3em; }
 .actions a { display: block; margin: 2em 0; }
@@ -13,7 +13,7 @@ button, .c2a a { padding: .4em .8em; color: #fff; font-size: 1em; border: 0; }
 button.large:hover {background-color: rgba(7, 96, 144, 1);}
 button.asset { background-color: rgba(232, 31, 99, 1); color: rgba(255, 255, 255, 1); }
 button.asset:hover { background-color: rgba(155,0,53, 1); }
-button.discuss-upvote, button.load-more { padding: .4em .8em; font-size: 1em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; }
+button.discuss-upvote { padding: .4em .8em; font-size: 1em; border: 1px solid rgba(56, 163, 221, 1); background: rgba(255,255,255,1); color: rgba(56, 163, 221, 1); margin-bottom: 1.2em; }
 button.discuss-upvote:hover { border: 1px solid rgba(7, 96, 144, 1); background: rgba(255,255,255,1); color: rgba(7, 96, 144, 1) }
 button.join { background-color: rgba(255, 88, 6, 1); }
 button.join:hover { background-color: rgba(178, 59, 0, 1); }
@@ -21,8 +21,8 @@ button.large, button.start-discuss, button.submit-comment { font-size: 1.2em; di
 button.login { background-color: none; }
 button.reply { border: 1px solid rgba(56, 163, 221, 1); color: rgba(56, 163, 221, 1); background-color: rgba(255,255,255,1); }
 button.reply:hover { color: rgba(255,255,255,1); background-color: rgba(56, 163, 221, 1); }
-button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile, button.claim, button.upgrade, button.sponsor { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
-button.start-discuss:hover, button.submit-comment:hover, button.send-message:hover, button.make-call:hover, button.save-profile:hover, button.upgrade:hover, button.sponsor:hover { background-color: rgba(7, 96, 144, 1); }
+button.start-discuss, button.submit-comment, button.send-message, button.make-call, button.save-profile, button.claim, button.upgrade, button.sponsor, button.contribute { background-color: rgba(56, 163, 221, 1); color: rgba(255, 255, 255, 1); }
+button.start-discuss:hover, button.submit-comment:hover, button.send-message:hover, button.make-call:hover, button.save-profile:hover, button.upgrade:hover, button.sponsor:hover, button.contribute:hover { background-color: rgba(7, 96, 144, 1); }
 button.tag { border-radius: 2px; padding: .4em .8em; font-size: .8em; text-transform: lowercase; font-weight: 300; background: rgba(56, 163, 221, 1); color: rgba(255,255,255,1) }
 button.tag:hover { background: rgba(7, 96, 144, 1); color: rgba(255,255,255,1) }
 button.upvote { width: 3em; font-size: 1.2em; border: 1px solid rgba(255,255,255,0); color: rgba(56, 163, 221, 1); background: rgba(255,255,255,0); }
