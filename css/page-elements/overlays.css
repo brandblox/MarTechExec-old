@@ -2,7 +2,7 @@
 
 /* Modal */
 .scrim {position: fixed; background-color: rgba(0,0,0,0.4); height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;}
-.modal {display: flex; flex-direction: column; overflow-y:scroll; width: 960px; max-height: 80%; background-color: rgba(255,255,255,1); box-shadow: 0 4px 12px rgba(0,0,0,0.8);}
-
+.modal {display: flex; flex-direction: column; overflow-y:scroll; background-color: rgba(255,255,255,1); box-shadow: 0 4px 12px rgba(0,0,0,0.8);}
+.modal .full {width: 960px; max-height: 80%;}
 
 /* Comment */
