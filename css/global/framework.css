@@ -18,3 +18,5 @@ aside.menu { order: 1; flex: 0 0 auto; align-self: stretch; }
 
 /*Related*/
 aside.related { order: 3; flex: 0 0 auto; align-self: stretch; }
+
+.ellipsis {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}

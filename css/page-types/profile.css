@@ -45,9 +45,10 @@ label{margin:.2em 0}
 #profile section.discuss {padding-top: 1.4em;}
 
 /* Feed Tab */
-#profile .updates {}
-#profile .updates header {}
+#profile .updates { max-width: 730px;}
+#profile .updates header { margin: 1em 0 2em 0; padding-top: 2em; border-top: 0.8px solid rgba(0,0,0,0.4);}
 #profile .updates .update-list {}
 #profile .updates .update-list .update-item {}
 #profile .updates .update-list .update-item .avatar {}
-#profile .updates footer {}
+#profile .updates footer {margin: 1em 0 0 0; padding-top: 2em; border-top: 0.8px solid rgba(0,0,0,0.4); text-align: center;}
+#profile .updates footer a {font-size: 1.4em;}
