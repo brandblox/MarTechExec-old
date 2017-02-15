@@ -9,7 +9,7 @@
 #profile .tab-group .tab.selected{ border-bottom: 2px solid rgba(255,255,255,1);}
 #profile .banner .information{display:flex;align-self:center;flex-direction:column;align-items:center;order:1;flex:1 1 auto;margin-top:2em;}
 
-
+#profile .updates .update-list .update-item {overflow-x: hidden; text-overflow: ellipsis;}
 #profile .banner .information ul{display:flex;flex-direction:row}
 
 /* Activity Tab */
@@ -22,7 +22,7 @@ label{margin:.2em 0}
 #profile .review-header{display:flex;flex-direction:row;justify-content:flex-start;align-items:baseline}
 #profile .rating{margin-right:.8em;color:rgba(230,195,0,1);font-size:1.5em}
 #profile .review-header h4{margin-right:1em}
-#profile .verified{background-color:rgba(56,163,221,1);color:rgba(255,255,255,1);padding:.4em .8em;font-size:.8em;font-weight:300;height:1em;margin-left:1em}
+#profile .verified{background-color:transparent;color:rgba(56,163,221,1);font-size:.8em;font-weight:300;height:1em;margin-left:1em}
 
 /* About Tab */
 #profile .about { width: 960px; }
@@ -41,3 +41,13 @@ label{margin:.2em 0}
 #profile .update  {font-size: 1em; letter-spacing: .05em; margin-bottom: 1em; display: flex; justify-content: space-between; align-items: center;}
 #profile .asset-type {display: flex; align-items: center; flex-direction: row;}
 #profile img {margin-right: 1em}
+
+#profile section.discuss {padding-top: 1.4em;}
+
+/* Feed Tab */
+#profile .updates {}
+#profile .updates header {}
+#profile .updates .update-list {}
+#profile .updates .update-list .update-item {}
+#profile .updates .update-list .update-item .avatar {}
+#profile .updates footer {}
